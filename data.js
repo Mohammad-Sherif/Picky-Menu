@@ -74,6 +74,12 @@ const menuData = {
             "id": "category-1342",
             "name": "Add-ons",
             "name_ar": "إضافات"
+        },
+        {
+            "id": "cat_1785270490826",
+            "name": "aa",
+            "name_ar": "aa",
+            "sort_order": 15
         }
     ],
     "items": [

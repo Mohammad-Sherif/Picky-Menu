@@ -6,7 +6,7 @@
 }
 
 :root {
-    --bg-color: #f8f9fa; /* Assuming slightly off-white body bg */
+    --bg-color: #f4e1d6;
     --card-bg: #fff;
     --text-dark: #1a1a1a;
     --text-grey: #666;
@@ -24,58 +24,59 @@ html {
 
 body {
     font-family: var(--font-family);
-    background-color: var(--card-bg);
+    background-color: var(--bg-color);
     color: var(--text-dark);
     -webkit-font-smoothing: antialiased;
+    border: 2px solid #5a3c30;
+    border-radius: 20px;
+    margin: 10px;
+    min-height: calc(100vh - 20px);
 }
 
 /* Header */
 .header {
     padding: 20px;
-    background: var(--card-bg);
+    background: transparent;
     text-align: center;
+    position: relative;
+    min-height: 150px;
 }
 
 .header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
 }
 
-.brand-name {
-    font-size: 28px;
-    font-weight: 800;
-    color: var(--text-dark);
+.brand-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.icon-btn {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
+.brand-logo {
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.lang-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #4a2c1f;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
     cursor: pointer;
     font-family: var(--font-family);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.restaurant-info {
-    display: flex;
-    gap: 15px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.info-item {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.text-orange {
-    color: var(--star-color);
 }
 
 /* Category Navigation (Sticky) */

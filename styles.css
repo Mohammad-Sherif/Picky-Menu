@@ -84,11 +84,6 @@ body {
     transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.lang-btn:hover {
-    transform: scale(1.05);
-    background: #5c3726;
-}
-
 .lang-btn:active {
     transform: scale(0.95);
 }
@@ -262,10 +257,52 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
     .food-box {
-        transition: all 0.3s ease;
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
     }
     .food-box:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        transform: translateY(-8px);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+}
+
+/* Animations */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        min-height: 100vh;
+        padding-bottom: 40px;
+    }
+    
+    .header {
+        padding: 15px 10px;
+        min-height: 120px;
+    }
+    
+    .brand-logo {
+        max-width: 150px;
+    }
+    
+    .items-grid {
+        gap: 15px;
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+    
+    .food-img {
+        height: 180px;
     }
 }

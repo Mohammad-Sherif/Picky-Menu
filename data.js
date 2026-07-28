@@ -820,6 +820,16 @@ const menuData = {
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "Cream Foam",
             "description_ar": "Available for any iced drink"
+        },
+        {
+            "category_id": "cat_1785270490826",
+            "name": "يييييس",
+            "name_ar": "سسسسسسسسس",
+            "price": "222 EGP",
+            "description": "11",
+            "description_ar": "111",
+            "image": "",
+            "id": "item_1785270559424"
         }
     ]
 };

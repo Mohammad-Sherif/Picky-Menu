@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Picky | Admin Dashboard</title>
+    <title>Picky | Full Admin CMS</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: 'Quicksand', sans-serif;
@@ -14,97 +15,95 @@
             color: #1a1a1a;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             background: #fff;
             padding: 30px;
             border-radius: 20px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
-        h1 {
-            text-align: center;
-            color: #4a2c1f;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
-        input[type="text"], input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-family: 'Quicksand', sans-serif;
+        h1, h2, h3 { color: #4a2c1f; }
+        
+        /* Forms & Inputs */
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: 600; }
+        input[type="text"], input[type="password"], textarea, select {
+            width: 100%; padding: 10px; border: 1px solid #ccc;
+            border-radius: 8px; font-family: 'Quicksand', sans-serif;
             box-sizing: border-box;
         }
-        button {
-            background: #e22400;
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            font-weight: 700;
-            cursor: pointer;
-            width: 100%;
-            font-size: 16px;
-            font-family: 'Quicksand', sans-serif;
+        
+        /* Buttons */
+        .btn {
+            background: #e22400; color: #fff; border: none;
+            padding: 10px 15px; border-radius: 8px; font-weight: 700;
+            cursor: pointer; font-size: 14px; font-family: 'Quicksand', sans-serif;
         }
-        button:hover {
-            background: #c11f00;
+        .btn:hover { background: #c11f00; }
+        .btn-secondary { background: #666; }
+        .btn-secondary:hover { background: #444; }
+        .btn-danger { background: #d32f2f; }
+        .btn-danger:hover { background: #b71c1c; }
+        .btn-sm { padding: 5px 10px; font-size: 12px; }
+        .w-100 { width: 100%; padding: 12px 20px; font-size: 16px; }
+        
+        /* Sections */
+        #dashboard { display: none; }
+        
+        /* Categories & Items UI */
+        .category-box {
+            background: #fdfdfd; border: 1px solid #eee;
+            border-radius: 12px; padding: 15px; margin-bottom: 20px;
         }
-        #dashboard {
-            display: none;
+        .category-header {
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 2px solid #f4e1d6; padding-bottom: 10px; margin-bottom: 10px;
         }
         .item-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 0;
-            border-bottom: 1px solid #eee;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 10px; border-bottom: 1px solid #f0f0f0; background: #fff;
+            border-radius: 8px; margin-bottom: 5px;
         }
-        .item-name {
-            flex: 1;
-            font-weight: 600;
-        }
-        .item-price {
-            width: 120px;
-        }
-        #status {
-            text-align: center;
-            margin-top: 15px;
-            font-weight: 600;
-        }
-        .error { color: red; }
-        .success { color: green; }
+        .item-info { flex: 1; }
+        .item-actions { display: flex; gap: 5px; }
+        .item-price { font-weight: 700; color: #e22400; margin-right: 15px;}
         
-        /* Loading spinner */
+        /* Modals */
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5); display: none;
+            justify-content: center; align-items: center; z-index: 1000;
+        }
+        .modal-content {
+            background: #fff; padding: 30px; border-radius: 15px;
+            width: 90%; max-width: 500px; max-height: 90vh; overflow-y: auto;
+        }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;}
+        .close-btn { background: none; border: none; font-size: 24px; cursor: pointer; color: #666; }
+        
+        /* Utilities */
         .loader {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #e22400;
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            animation: spin 1s linear infinite;
-            margin: 20px auto;
-            display: none;
+            border: 4px solid #f3f3f3; border-top: 4px solid #e22400;
+            border-radius: 50%; width: 30px; height: 30px;
+            animation: spin 1s linear infinite; margin: 20px auto; display: none;
         }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .status-msg { text-align: center; margin-top: 15px; font-weight: 600; }
+        .error { color: red; } .success { color: green; }
+        .header-actions { display: flex; gap: 10px; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Picky Admin</h1>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+        <h1>Picky CMS</h1>
+        <button id="logout-btn" class="btn btn-secondary" style="display:none;">Logout</button>
+    </div>
 
+    <!-- Login Section -->
     <div id="login-section">
-        <p style="text-align:center; color:#666; margin-bottom: 20px;">Enter your GitHub details to manage prices.</p>
+        <p style="text-align:center; color:#666; margin-bottom: 20px;">Enter GitHub details to manage the menu.</p>
         <div class="form-group">
             <label>GitHub Token (Secret Key)</label>
             <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
@@ -117,95 +116,306 @@
             <label>Repository Name</label>
             <input type="text" id="gh-repo" placeholder="e.g. picky-menu">
         </div>
-        <button id="login-btn">Login & Load Menu</button>
+        <button id="login-btn" class="btn w-100">Login & Load Menu</button>
         <div class="loader" id="login-loader"></div>
-        <div id="login-status" id="status"></div>
+        <div id="login-status" class="status-msg"></div>
     </div>
 
+    <!-- Dashboard Section -->
     <div id="dashboard">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
-            <h2>Update Prices</h2>
-            <button id="logout-btn" style="width: auto; background: #666;">Logout</button>
+        <div class="header-actions" style="margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+            <button id="add-cat-btn" class="btn"><i class="fas fa-plus"></i> Add Category</button>
+            <button id="add-item-btn" class="btn"><i class="fas fa-plus"></i> Add Product</button>
         </div>
-        <div id="items-container"></div>
-        <button id="save-btn" style="margin-top: 20px;">Save & Publish Changes</button>
+        
+        <div id="menu-builder-container"></div>
+        
+        <button id="save-btn" class="btn w-100" style="margin-top: 30px; font-size: 18px;"><i class="fas fa-cloud-upload-alt"></i> Save & Publish All Changes</button>
         <div class="loader" id="save-loader"></div>
-        <div id="save-status" id="status"></div>
+        <div id="save-status" class="status-msg"></div>
+    </div>
+</div>
+
+<!-- Category Modal -->
+<div class="modal-overlay" id="cat-modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="cat-modal-title">Add Category</h2>
+            <button class="close-btn" onclick="closeModal('cat-modal')">&times;</button>
+        </div>
+        <input type="hidden" id="cat-id">
+        <div class="form-group">
+            <label>Category Name (English)</label>
+            <input type="text" id="cat-name-en">
+        </div>
+        <div class="form-group">
+            <label>Category Name (Arabic)</label>
+            <input type="text" id="cat-name-ar" dir="rtl">
+        </div>
+        <button class="btn w-100" onclick="saveCategory()">Save Category</button>
+    </div>
+</div>
+
+<!-- Item Modal -->
+<div class="modal-overlay" id="item-modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="item-modal-title">Add Product</h2>
+            <button class="close-btn" onclick="closeModal('item-modal')">&times;</button>
+        </div>
+        <input type="hidden" id="item-id">
+        <div class="form-group">
+            <label>Category</label>
+            <select id="item-category"></select>
+        </div>
+        <div class="form-group">
+            <label>Product Name (English)</label>
+            <input type="text" id="item-name-en">
+        </div>
+        <div class="form-group">
+            <label>Product Name (Arabic)</label>
+            <input type="text" id="item-name-ar" dir="rtl">
+        </div>
+        <div class="form-group">
+            <label>Price (e.g. 100)</label>
+            <input type="text" id="item-price">
+        </div>
+        <div class="form-group">
+            <label>Description/Ingredients (English)</label>
+            <textarea id="item-desc-en" rows="2"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Description/Ingredients (Arabic)</label>
+            <textarea id="item-desc-ar" rows="2" dir="rtl"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Image URL</label>
+            <input type="text" id="item-image" placeholder="https://...">
+            <small style="color:#666;">Provide a direct link to an image.</small>
+        </div>
+        <button class="btn w-100" onclick="saveItem()">Save Product</button>
     </div>
 </div>
 
 <script>
     let fileSha = '';
-    let menuDataObj = null;
+    let menuDataObj = { categories: [], items: [] };
 
+    // Login Logic
     document.getElementById('login-btn').addEventListener('click', async () => {
         const token = document.getElementById('gh-token').value.trim();
         const owner = document.getElementById('gh-owner').value.trim();
         const repo = document.getElementById('gh-repo').value.trim();
         
-        if (!token || !owner || !repo) {
-            alert('Please fill all fields');
-            return;
-        }
+        if (!token || !owner || !repo) return alert('Please fill all fields');
 
         document.getElementById('login-loader').style.display = 'block';
         document.getElementById('login-status').textContent = '';
 
         try {
-            // Fetch data.js from Github API
             const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/data.js`, {
-                headers: {
-                    'Authorization': `token ${token}`,
-                    'Accept': 'application/vnd.github.v3+json'
-                }
+                headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
             });
-
-            if (!response.ok) {
-                throw new Error('Failed to connect. Check your token and repo details.');
-            }
+            if (!response.ok) throw new Error('Failed to connect. Check your credentials.');
 
             const data = await response.json();
-            fileSha = data.sha; // Needed for updating
+            fileSha = data.sha;
             
-            // Decode base64 content
             const content = decodeURIComponent(escape(atob(data.content)));
-            
-            // Extract JSON
             let jsonStr = content.replace('const menuData = ', '').trim();
             if (jsonStr.endsWith(';')) jsonStr = jsonStr.slice(0, -1);
             
             menuDataObj = JSON.parse(jsonStr);
-            
             renderDashboard();
             
             document.getElementById('login-section').style.display = 'none';
             document.getElementById('dashboard').style.display = 'block';
+            document.getElementById('logout-btn').style.display = 'block';
         } catch (error) {
             document.getElementById('login-status').textContent = error.message;
-            document.getElementById('login-status').className = 'error';
+            document.getElementById('login-status').className = 'status-msg error';
         } finally {
             document.getElementById('login-loader').style.display = 'none';
         }
     });
 
+    // Render Dashboard
     function renderDashboard() {
-        const container = document.getElementById('items-container');
+        const container = document.getElementById('menu-builder-container');
         container.innerHTML = '';
+        
+        // Populate item category dropdown for modal
+        const select = document.getElementById('item-category');
+        select.innerHTML = '';
+        
+        menuDataObj.categories.forEach(cat => {
+            // Dropdown option
+            const opt = document.createElement('option');
+            opt.value = cat.id;
+            opt.textContent = `${cat.name} / ${cat.name_ar || ''}`;
+            select.appendChild(opt);
 
-        menuDataObj.items.forEach((item, index) => {
-            const row = document.createElement('div');
-            row.className = 'item-row';
+            // Category UI Box
+            const catBox = document.createElement('div');
+            catBox.className = 'category-box';
             
-            row.innerHTML = `
-                <div class="item-name">${item.name} <br><small style="color:#777;">${item.name_ar}</small></div>
-                <div class="item-price">
-                    <input type="text" id="price-${index}" value="${item.price.replace(' EGP', '')}">
+            const catHeader = document.createElement('div');
+            catHeader.className = 'category-header';
+            catHeader.innerHTML = `
+                <div>
+                    <h3 style="margin:0;">${cat.name}</h3>
+                    <small style="color:#666;">${cat.name_ar || ''}</small>
+                </div>
+                <div>
+                    <button class="btn btn-sm btn-secondary" onclick="openCatModal('${cat.id}')"><i class="fas fa-edit"></i> Edit</button>
+                    <button class="btn btn-sm btn-danger" onclick="deleteCategory('${cat.id}')"><i class="fas fa-trash"></i> Delete</button>
                 </div>
             `;
-            container.appendChild(row);
+            catBox.appendChild(catHeader);
+
+            // Items in Category
+            const items = menuDataObj.items.filter(i => i.category_id === cat.id);
+            items.forEach(item => {
+                const itemRow = document.createElement('div');
+                itemRow.className = 'item-row';
+                itemRow.innerHTML = `
+                    <div class="item-info">
+                        <strong>${item.name}</strong> <span style="color:#888;">| ${item.name_ar || ''}</span>
+                        <div style="font-size:12px; color:#666;">${item.description || 'No description'}</div>
+                    </div>
+                    <div class="item-price">${item.price}</div>
+                    <div class="item-actions">
+                        <button class="btn btn-sm btn-secondary" onclick="openItemModal('${item.id}')"><i class="fas fa-edit"></i></button>
+                        <button class="btn btn-sm btn-danger" onclick="deleteItem('${item.id}')"><i class="fas fa-trash"></i></button>
+                    </div>
+                `;
+                catBox.appendChild(itemRow);
+            });
+
+            container.appendChild(catBox);
         });
     }
 
+    // Modal Controls
+    function openModal(id) { document.getElementById(id).style.display = 'flex'; }
+    function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+
+    // --- CATEGORY CRUD ---
+    document.getElementById('add-cat-btn').addEventListener('click', () => {
+        document.getElementById('cat-modal-title').textContent = 'Add Category';
+        document.getElementById('cat-id').value = '';
+        document.getElementById('cat-name-en').value = '';
+        document.getElementById('cat-name-ar').value = '';
+        openModal('cat-modal');
+    });
+
+    window.openCatModal = (id) => {
+        const cat = menuDataObj.categories.find(c => c.id === id);
+        document.getElementById('cat-modal-title').textContent = 'Edit Category';
+        document.getElementById('cat-id').value = cat.id;
+        document.getElementById('cat-name-en').value = cat.name || '';
+        document.getElementById('cat-name-ar').value = cat.name_ar || '';
+        openModal('cat-modal');
+    };
+
+    window.saveCategory = () => {
+        const id = document.getElementById('cat-id').value;
+        const name = document.getElementById('cat-name-en').value.trim();
+        const nameAr = document.getElementById('cat-name-ar').value.trim();
+        
+        if (!name) return alert('Category Name (English) is required.');
+
+        if (id) {
+            // Edit
+            const cat = menuDataObj.categories.find(c => c.id === id);
+            cat.name = name;
+            cat.name_ar = nameAr;
+        } else {
+            // Add
+            const newId = 'cat_' + Date.now();
+            menuDataObj.categories.push({ id: newId, name: name, name_ar: nameAr, sort_order: menuDataObj.categories.length });
+        }
+        closeModal('cat-modal');
+        renderDashboard();
+    };
+
+    window.deleteCategory = (id) => {
+        if (confirm('Are you sure? This will NOT delete the items, but they will be orphaned until reassigned.')) {
+            menuDataObj.categories = menuDataObj.categories.filter(c => c.id !== id);
+            renderDashboard();
+        }
+    };
+
+    // --- ITEM CRUD ---
+    document.getElementById('add-item-btn').addEventListener('click', () => {
+        if(menuDataObj.categories.length === 0) return alert('Please create a category first.');
+        document.getElementById('item-modal-title').textContent = 'Add Product';
+        document.getElementById('item-id').value = '';
+        document.getElementById('item-name-en').value = '';
+        document.getElementById('item-name-ar').value = '';
+        document.getElementById('item-price').value = '';
+        document.getElementById('item-desc-en').value = '';
+        document.getElementById('item-desc-ar').value = '';
+        document.getElementById('item-image').value = '';
+        openModal('item-modal');
+    });
+
+    window.openItemModal = (id) => {
+        const item = menuDataObj.items.find(i => i.id === id);
+        document.getElementById('item-modal-title').textContent = 'Edit Product';
+        document.getElementById('item-id').value = item.id;
+        document.getElementById('item-category').value = item.category_id;
+        document.getElementById('item-name-en').value = item.name || '';
+        document.getElementById('item-name-ar').value = item.name_ar || '';
+        document.getElementById('item-price').value = item.price.replace(' EGP', '') || '';
+        document.getElementById('item-desc-en').value = item.description || '';
+        document.getElementById('item-desc-ar').value = item.description_ar || '';
+        document.getElementById('item-image').value = item.image || '';
+        openModal('item-modal');
+    };
+
+    window.saveItem = () => {
+        const id = document.getElementById('item-id').value;
+        const catId = document.getElementById('item-category').value;
+        const name = document.getElementById('item-name-en').value.trim();
+        const nameAr = document.getElementById('item-name-ar').value.trim();
+        const price = document.getElementById('item-price').value.trim();
+        const descEn = document.getElementById('item-desc-en').value.trim();
+        const descAr = document.getElementById('item-desc-ar').value.trim();
+        const image = document.getElementById('item-image').value.trim();
+
+        if (!name || !price) return alert('Name and Price are required.');
+
+        const itemData = {
+            category_id: catId,
+            name: name,
+            name_ar: nameAr,
+            price: price.includes('EGP') ? price : price + ' EGP',
+            description: descEn,
+            description_ar: descAr,
+            image: image,
+            id: id || ('item_' + Date.now())
+        };
+
+        if (id) {
+            const idx = menuDataObj.items.findIndex(i => i.id === id);
+            menuDataObj.items[idx] = itemData;
+        } else {
+            menuDataObj.items.push(itemData);
+        }
+        
+        closeModal('item-modal');
+        renderDashboard();
+    };
+
+    window.deleteItem = (id) => {
+        if (confirm('Are you sure you want to delete this product?')) {
+            menuDataObj.items = menuDataObj.items.filter(i => i.id !== id);
+            renderDashboard();
+        }
+    };
+
+    // --- Save to GitHub ---
     document.getElementById('save-btn').addEventListener('click', async () => {
         const token = document.getElementById('gh-token').value.trim();
         const owner = document.getElementById('gh-owner').value.trim();
@@ -214,15 +424,7 @@
         document.getElementById('save-loader').style.display = 'block';
         document.getElementById('save-status').textContent = '';
 
-        // Update object with new prices
-        menuDataObj.items.forEach((item, index) => {
-            const newPrice = document.getElementById(`price-${index}`).value.trim();
-            item.price = `${newPrice} EGP`;
-        });
-
-        // Convert back to string
         const newContent = `const menuData = ${JSON.stringify(menuDataObj, null, 4)};`;
-        // Encode to base64 safely supporting utf-8
         const encodedContent = btoa(unescape(encodeURIComponent(newContent)));
 
         try {
@@ -234,24 +436,21 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    message: 'Update prices via Picky Admin Dashboard',
+                    message: 'CMS Update: Modified menu data via Admin Dashboard',
                     content: encodedContent,
                     sha: fileSha
                 })
             });
 
-            if (!response.ok) {
-                throw new Error('Failed to save. Make sure the token has write (repo) permissions.');
-            }
+            if (!response.ok) throw new Error('Failed to save. Make sure the token has write permissions.');
 
             const data = await response.json();
-            fileSha = data.content.sha; // Update SHA for subsequent saves
-
-            document.getElementById('save-status').textContent = 'Prices updated successfully! The live menu will reflect changes shortly.';
-            document.getElementById('save-status').className = 'success';
+            fileSha = data.content.sha; 
+            document.getElementById('save-status').textContent = 'Successfully saved to GitHub! Changes will be live shortly.';
+            document.getElementById('save-status').className = 'status-msg success';
         } catch (error) {
             document.getElementById('save-status').textContent = error.message;
-            document.getElementById('save-status').className = 'error';
+            document.getElementById('save-status').className = 'status-msg error';
         } finally {
             document.getElementById('save-loader').style.display = 'none';
         }
@@ -261,6 +460,7 @@
         document.getElementById('gh-token').value = '';
         document.getElementById('login-section').style.display = 'block';
         document.getElementById('dashboard').style.display = 'none';
+        document.getElementById('logout-btn').style.display = 'none';
         document.getElementById('save-status').textContent = '';
         menuDataObj = null;
     });

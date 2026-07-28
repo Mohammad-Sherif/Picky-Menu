@@ -226,6 +226,16 @@
             if (jsonStr.endsWith(';')) jsonStr = jsonStr.slice(0, -1);
             
             menuDataObj = JSON.parse(jsonStr);
+            
+            // Fix: Ensure all items have IDs so the Edit/Delete buttons can find them
+            if (menuDataObj.items) {
+                menuDataObj.items.forEach((item, index) => {
+                    if (!item.id) {
+                        item.id = 'item_' + Date.now() + '_' + index;
+                    }
+                });
+            }
+
             renderDashboard();
             
             document.getElementById('login-section').style.display = 'none';
@@ -367,7 +377,7 @@
         document.getElementById('item-category').value = item.category_id;
         document.getElementById('item-name-en').value = item.name || '';
         document.getElementById('item-name-ar').value = item.name_ar || '';
-        document.getElementById('item-price').value = item.price.replace(' EGP', '') || '';
+        document.getElementById('item-price').value = item.price ? String(item.price).replace(' EGP', '') : '';
         document.getElementById('item-desc-en').value = item.description || '';
         document.getElementById('item-desc-ar').value = item.description_ar || '';
         document.getElementById('item-image').value = item.image || '';

@@ -83,7 +83,7 @@ const menuData = {
             "description": "Double Ristretto, Microfoam Milk",
             "price": "100.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781377977flat white.jpeg",
-            "name_ar": "Flat White",
+            "name_ar": "فلات وايت",
             "description_ar": "Double Ristretto, Microfoam Milk"
         },
         {
@@ -92,7 +92,7 @@ const menuData = {
             "description": "Double Shot Espresso, Steamed Milk",
             "price": "100.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781377863cappicino.jpeg",
-            "name_ar": "Cappuccino",
+            "name_ar": "كابوتشينو",
             "description_ar": "Double Shot Espresso, Steamed Milk"
         },
         {
@@ -101,7 +101,7 @@ const menuData = {
             "description": "Double Shot Espresso, Steamed milk",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378034latte.jpeg",
-            "name_ar": "Latte",
+            "name_ar": "لاتيه",
             "description_ar": "Double Shot Espresso, Steamed milk"
         },
         {
@@ -110,7 +110,7 @@ const menuData = {
             "description": "Double Shot Espresso, Condensed Milk, Steamed Milk",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781381506ChatGPT Image Jun 13, 2026, 11_07_37 PM.png",
-            "name_ar": "Spanish Latte",
+            "name_ar": "سبانيش لاتيه",
             "description_ar": "Double Shot Espresso, Condensed Milk, Steamed Milk"
         },
         {
@@ -119,7 +119,7 @@ const menuData = {
             "description": "Espresso, White Mocha Sauce, Steamed Milk",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378253mocha.jpeg",
-            "name_ar": "Mocha / White Mocha",
+            "name_ar": "موكا / وايت موكا",
             "description_ar": "Espresso, White Mocha Sauce, Steamed Milk"
         },
         {
@@ -128,7 +128,7 @@ const menuData = {
             "description": "Double Shot Espresso, Steamed Milk",
             "price": "95.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781382256ChatGPT Image Jun 13, 2026, 11_22_49 PM.png",
-            "name_ar": "Cortado",
+            "name_ar": "كورتادو",
             "description_ar": "Double Shot Espresso, Steamed Milk"
         },
         {
@@ -137,7 +137,7 @@ const menuData = {
             "description": "Double Shot Espresso, Hot Water",
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378445WhatsApp Image 2026-06-13 at 9.23.44 PM.jpeg",
-            "name_ar": "Americano",
+            "name_ar": "أمريكانو",
             "description_ar": "Double Shot Espresso, Hot Water"
         },
         {
@@ -146,7 +146,7 @@ const menuData = {
             "description": "Double Espresso",
             "price": "85.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378389WhatsApp Image 2026-06-13 at 9.20.19 PM.jpeg",
-            "name_ar": "Double Espresso",
+            "name_ar": "دبل اسبريسو",
             "description_ar": "Double Espresso"
         },
         {
@@ -155,7 +155,7 @@ const menuData = {
             "description": "Espresso",
             "price": "65.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378324WhatsApp Image 2026-06-13 at 9.20.19 PM.jpeg",
-            "name_ar": "Espresso",
+            "name_ar": "اسبريسو",
             "description_ar": "Espresso"
         },
         {
@@ -164,7 +164,7 @@ const menuData = {
             "description": "Double Shot Espresso, Ice, Milk",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781274570ChatGPT Image Jun 12, 2026, 05_28_25 PM.png",
-            "name_ar": "Iced Latte",
+            "name_ar": "آيس لاتيه",
             "description_ar": "Double Shot Espresso, Ice, Milk"
         },
         {
@@ -173,7 +173,7 @@ const menuData = {
             "description": "Double Shot Espresso, Ice, Milk, condensed milk",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781274085ChatGPT Image Jun 12, 2026, 05_19_14 PM.png",
-            "name_ar": "Iced Spanish Latte",
+            "name_ar": "آيس سبانيش لاتيه",
             "description_ar": "Double Shot Espresso, Ice, Milk, condensed milk"
         },
         {
@@ -182,7 +182,7 @@ const menuData = {
             "description": "Double Shot Espresso, Ice, Vanilla Syrup, Milk, Caramel Drizzle",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781460635iced caramel micato.jpeg",
-            "name_ar": "Iced Caramel Macchiato",
+            "name_ar": "آيس كراميل ميكياتو",
             "description_ar": "Double Shot Espresso, Ice, Vanilla Syrup, Milk, Caramel Drizzle"
         },
         {
@@ -191,7 +191,7 @@ const menuData = {
             "description": "Double Shot Espresso, Cup Filled with Ice, Chocolate Sauce, Milk",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781460791iced mocha.jpeg",
-            "name_ar": "Iced Mocha",
+            "name_ar": "آيس موكا",
             "description_ar": "Double Shot Espresso, Cup Filled with Ice, Chocolate Sauce, Milk"
         },
         {
@@ -200,7 +200,7 @@ const menuData = {
             "description": "Double Shot Espresso, Ice, Cold Water",
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781275337ChatGPT Image Jun 12, 2026, 05_41_29 PM.png",
-            "name_ar": "Iced Americano",
+            "name_ar": "آيس Americano",
             "description_ar": "Double Shot Espresso, Ice, Cold Water"
         },
         {
@@ -209,7 +209,7 @@ const menuData = {
             "description": "Soda ,Passion Fruit Puree, Lemon Juice, popping Boba, Ice",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/17812814489C73C34D-ED4A-427B-88BA-9B20C8D7BE6A.png",
-            "name_ar": "Passion Fruit popping Boba",
+            "name_ar": "Passion Fruit popping بوبا",
             "description_ar": "Soda ,Passion Fruit Puree, Lemon Juice, popping Boba, Ice"
         },
         {
@@ -218,7 +218,7 @@ const menuData = {
             "description": "Soda, blueberry syrup , lemon juice, pooping Boba, Ice",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/17812815337D87BF3C-F256-47DA-AB8F-5AF34DCE2585.png",
-            "name_ar": "Blueberry boba",
+            "name_ar": "توت أزرق بوبا",
             "description_ar": "Soda, blueberry syrup , lemon juice, pooping Boba, Ice"
         },
         {
@@ -227,7 +227,7 @@ const menuData = {
             "description": "Soda ,Strawberry Puree, Lemon Juice, Sugar Syrup, Strawberry Popping Boba, Ice",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/178128175189190AC8-85AF-4C8F-8415-73DE5621EF51.png",
-            "name_ar": "Strawberry Popping Boba",
+            "name_ar": "فراولة Popping بوبا",
             "description_ar": "Soda ,Strawberry Puree, Lemon Juice, Sugar Syrup, Strawberry Popping Boba, Ice"
         },
         {
@@ -236,7 +236,7 @@ const menuData = {
             "description": "Soda, Mango Puree, popping Boba, Ice",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781281131E26C4929-31F4-4663-95F7-7F73E7BB5EFD.png",
-            "name_ar": "Mango Popping Boba",
+            "name_ar": "مانجو Popping بوبا",
             "description_ar": "Soda, Mango Puree, popping Boba, Ice"
         },
         {
@@ -245,7 +245,7 @@ const menuData = {
             "description": "Black Tea, Milk, Brown Sugar Sauce, Cream Foam, Boba, Ice",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781382914ChatGPT Image Jun 13, 2026, 11_34_52 PM.png",
-            "name_ar": "Brown Sugar Cream Latte",
+            "name_ar": "Brown Sugar Cream لاتيه",
             "description_ar": "Black Tea, Milk, Brown Sugar Sauce, Cream Foam, Boba, Ice"
         },
         {
@@ -254,7 +254,7 @@ const menuData = {
             "description": "Green Tea, Milk, Mango Puree, Coconut Syrup, Boba, Ice",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781380602ChatGPT Image Jun 13, 2026, 10_54_17 PM.png",
-            "name_ar": "Mango Coconut Boba",
+            "name_ar": "مانجو Coconut بوبا",
             "description_ar": "Green Tea, Milk, Mango Puree, Coconut Syrup, Boba, Ice"
         },
         {
@@ -263,7 +263,7 @@ const menuData = {
             "description": "Matcha, Milk, Sugar Syrup, cream foam. Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781381464ChatGPT Image Jun 13, 2026, 11_10_39 PM.png",
-            "name_ar": "Matcha Cream Boba",
+            "name_ar": "Matcha Cream بوبا",
             "description_ar": "Matcha, Milk, Sugar Syrup, cream foam. Boba, Ice"
         },
         {
@@ -272,7 +272,7 @@ const menuData = {
             "description": "Black Tea, Milk, Nutella . Sugar Syrup, Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378744nutella boba.jpeg",
-            "name_ar": "Nutella Milk Boba",
+            "name_ar": "Nutella Milk بوبا",
             "description_ar": "Black Tea, Milk, Nutella . Sugar Syrup, Boba, Ice"
         },
         {
@@ -281,7 +281,7 @@ const menuData = {
             "description": "Milk, Kinder Sauce, Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378713kinder boba.jpeg",
-            "name_ar": "Kinder Milk Boba",
+            "name_ar": "Kinder Milk بوبا",
             "description_ar": "Milk, Kinder Sauce, Boba, Ice"
         },
         {
@@ -290,7 +290,7 @@ const menuData = {
             "description": "Milk, Pistachio Sauce, Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378684pistachio boba.jpeg",
-            "name_ar": "Pistachio Milk Boba",
+            "name_ar": "فستق Milk بوبا",
             "description_ar": "Milk, Pistachio Sauce, Boba, Ice"
         },
         {
@@ -299,7 +299,7 @@ const menuData = {
             "description": "Milk, lotus Sauce, lotus Pieces, Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378849lotus boba.jpeg",
-            "name_ar": "Lotus Milk Boba",
+            "name_ar": "لوتس Milk بوبا",
             "description_ar": "Milk, lotus Sauce, lotus Pieces, Boba, Ice"
         },
         {
@@ -308,7 +308,7 @@ const menuData = {
             "description": "Milk, Chocolate Powder, Chocolate Sauce, Oreo Pieces, Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781379678oreo boba.jpeg",
-            "name_ar": "Oreo Milk Boba",
+            "name_ar": "أوريو Milk بوبا",
             "description_ar": "Milk, Chocolate Powder, Chocolate Sauce, Oreo Pieces, Boba, Ice"
         },
         {
@@ -317,7 +317,7 @@ const menuData = {
             "description": "Milk, Strawberry Puree, Cream Foam, Boba",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781382504ChatGPT Image Jun 13, 2026, 11_28_09 PM.png",
-            "name_ar": "Strawberry Milk Boba",
+            "name_ar": "فراولة Milk بوبا",
             "description_ar": "Milk, Strawberry Puree, Cream Foam, Boba"
         },
         {
@@ -326,7 +326,7 @@ const menuData = {
             "description": "Green Tea, Passion Fruit Puree, Sugar Syrup, Lemon Juice, Boba, Ice",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387772WhatsApp Image 2026-06-14 at 12.45.12 AM.jpeg",
-            "name_ar": "Passion Fruit Tea",
+            "name_ar": "Passion Fruit شاي",
             "description_ar": "Green Tea, Passion Fruit Puree, Sugar Syrup, Lemon Juice, Boba, Ice"
         },
         {
@@ -335,7 +335,7 @@ const menuData = {
             "description": "Green Tea, Blueberry Syrup, Sugar Syrup, Boba, Ice",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781388471blueberry tea.jpeg",
-            "name_ar": "Blueberry Tea",
+            "name_ar": "توت أزرق شاي",
             "description_ar": "Green Tea, Blueberry Syrup, Sugar Syrup, Boba, Ice"
         },
         {
@@ -344,7 +344,7 @@ const menuData = {
             "description": "Green Tea, Strawberry Puree, Sugar Syrup, Boba, Ice",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
-            "name_ar": "Strawberry Tea",
+            "name_ar": "فراولة شاي",
             "description_ar": "Green Tea, Strawberry Puree, Sugar Syrup, Boba, Ice"
         },
         {
@@ -353,7 +353,7 @@ const menuData = {
             "description": "Green Tea, Peach Syrup, Sugar Syrup, Boba, Ice",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781459456ChatGPT Image Jun 14, 2026, 08_50_31 PM.png",
-            "name_ar": "Peach Tea",
+            "name_ar": "خوخ شاي",
             "description_ar": "Green Tea, Peach Syrup, Sugar Syrup, Boba, Ice"
         },
         {
@@ -362,7 +362,7 @@ const menuData = {
             "description": "Green Tea, Mango Puree, Sugar Syrup, Boba, Ice",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781390072ChatGPT Image Jun 14, 2026, 01_32_23 AM.png",
-            "name_ar": "Mango Tea",
+            "name_ar": "مانجو شاي",
             "description_ar": "Green Tea, Mango Puree, Sugar Syrup, Boba, Ice"
         },
         {
@@ -371,7 +371,7 @@ const menuData = {
             "description": "Black Tea, Lemon Juice, Sugar Syrup, boba , Ice",
             "price": "115.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781390503lemon tea.jpeg",
-            "name_ar": "Lemon Tea",
+            "name_ar": "ليمون شاي",
             "description_ar": "Black Tea, Lemon Juice, Sugar Syrup, boba , Ice"
         },
         {
@@ -380,7 +380,7 @@ const menuData = {
             "description": "Green Tea, Green Apple Syrup, Sugar Syrup, Boba, Ice",
             "price": "115.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781461502ChatGPT Image Jun 14, 2026, 09_24_43 PM.png",
-            "name_ar": "Green Apple Tea",
+            "name_ar": "Green تفاح شاي",
             "description_ar": "Green Tea, Green Apple Syrup, Sugar Syrup, Boba, Ice"
         },
         {
@@ -389,7 +389,7 @@ const menuData = {
             "description": "Black Tea, Milk, Coconut Syrup, Sugar Syrup, Boba, Ice",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781384813ChatGPT Image Jun 14, 2026, 12_06_30 AM.png",
-            "name_ar": "Coconut Milk Tea",
+            "name_ar": "Coconut Milk شاي",
             "description_ar": "Black Tea, Milk, Coconut Syrup, Sugar Syrup, Boba, Ice"
         },
         {
@@ -398,7 +398,7 @@ const menuData = {
             "description": "Black Tea, Milk, Chocolate Powder, Sugar Syrup, Boba, Ice",
             "price": "145.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781384663ChatGPT Image Jun 14, 2026, 12_03_32 AM.png",
-            "name_ar": "Chocolate Milk Tea",
+            "name_ar": "شوكولاتة Milk شاي",
             "description_ar": "Black Tea, Milk, Chocolate Powder, Sugar Syrup, Boba, Ice"
         },
         {
@@ -407,7 +407,7 @@ const menuData = {
             "description": "Milk, Vanilla Syrup, Boba, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781388600vanilla milk tea.jpeg",
-            "name_ar": "Vanilla Milk Tea",
+            "name_ar": "فانيليا Milk شاي",
             "description_ar": "Milk, Vanilla Syrup, Boba, Ice"
         },
         {
@@ -416,7 +416,7 @@ const menuData = {
             "description": "Black Tea, Milk, Boba",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781388090thai milk tea.jpeg",
-            "name_ar": "Thai Milk Tea",
+            "name_ar": "Thai Milk شاي",
             "description_ar": "Black Tea, Milk, Boba"
         },
         {
@@ -425,7 +425,7 @@ const menuData = {
             "description": "Matcha Powder, Milk, Sugar Syrup, Boba, Ice",
             "price": "155.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781386062ChatGPT Image Jun 14, 2026, 12_27_20 AM.png",
-            "name_ar": "Matcha Milk Tea",
+            "name_ar": "Matcha Milk شاي",
             "description_ar": "Matcha Powder, Milk, Sugar Syrup, Boba, Ice"
         },
         {
@@ -434,7 +434,7 @@ const menuData = {
             "description": "Black Tea, Milk, Brown Sugar Sauce, Boba, Ice",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383286ChatGPT Image Jun 13, 2026, 11_39_40 PM.png",
-            "name_ar": "Brown Sugar Milk Tea",
+            "name_ar": "Brown Sugar Milk شاي",
             "description_ar": "Black Tea, Milk, Brown Sugar Sauce, Boba, Ice"
         },
         {
@@ -443,7 +443,7 @@ const menuData = {
             "description": "Black Tea, Milk, Sugar Syrup, Boba, Ice",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781384233ChatGPT Image Jun 13, 2026, 11_52_53 PM.png",
-            "name_ar": "Classic Milk Tea",
+            "name_ar": "كلاسيك Milk شاي",
             "description_ar": "Black Tea, Milk, Sugar Syrup, Boba, Ice"
         },
         {
@@ -452,7 +452,7 @@ const menuData = {
             "description": "coconut milk. Matcha powder. honey",
             "price": "145.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781276494ChatGPT Image Jun 12, 2026, 05_57_39 PM.png",
-            "name_ar": "Coconut Matcha Latte",
+            "name_ar": "Coconut Matcha لاتيه",
             "description_ar": "coconut milk. Matcha powder. honey"
         },
         {
@@ -461,7 +461,7 @@ const menuData = {
             "description": "Strawberry Puree, Milk, Matcha Powder, Ice",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781277083ChatGPT Image Jun 12, 2026, 06_10_55 PM.png",
-            "name_ar": "Strawberry Matcha Latte",
+            "name_ar": "فراولة Matcha لاتيه",
             "description_ar": "Strawberry Puree, Milk, Matcha Powder, Ice"
         },
         {
@@ -470,7 +470,7 @@ const menuData = {
             "description": "Ice, Milk, Matcha Powder, Frappe Base, Vanilla Syrup",
             "price": "160.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781277629ChatGPT Image Jun 12, 2026, 06_18_54 PM.png",
-            "name_ar": "Matcha Frappe",
+            "name_ar": "Matcha فرابيه",
             "description_ar": "Ice, Milk, Matcha Powder, Frappe Base, Vanilla Syrup"
         },
         {
@@ -479,7 +479,7 @@ const menuData = {
             "description": "Milk, Matcha Powder, Honey, Ice",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781277983ChatGPT Image Jun 12, 2026, 06_25_38 PM.png",
-            "name_ar": "Iced Matcha Latte",
+            "name_ar": "آيس Matcha لاتيه",
             "description_ar": "Milk, Matcha Powder, Honey, Ice"
         },
         {
@@ -488,7 +488,7 @@ const menuData = {
             "description": "Milk, Matcha Powder, Honey",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781279455ChatGPT Image Jun 12, 2026, 06_49_58 PM.png",
-            "name_ar": "Matcha Latte (Hot)",
+            "name_ar": "Matcha لاتيه (Hot)",
             "description_ar": "Milk, Matcha Powder, Honey"
         },
         {
@@ -497,7 +497,7 @@ const menuData = {
             "description": "Lemon Juice, Passion Fruit Syrup, Clear Mojito Syrup, Ice, Soda",
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781283061ChatGPT Image Jun 12, 2026, 07_50_36 PM.png",
-            "name_ar": "Passion Fruit Mojito",
+            "name_ar": "Passion Fruit موهيتو",
             "description_ar": "Lemon Juice, Passion Fruit Syrup, Clear Mojito Syrup, Ice, Soda"
         },
         {
@@ -506,7 +506,7 @@ const menuData = {
             "description": "Lemon Juice, Clear Mojito Syrup, Ice, Soda .blueberry syrup",
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781282164ChatGPT Image Jun 12, 2026, 07_34_29 PM.png",
-            "name_ar": "Blueberry mojito",
+            "name_ar": "توت أزرق موهيتو",
             "description_ar": "Lemon Juice, Clear Mojito Syrup, Ice, Soda .blueberry syrup"
         },
         {
@@ -515,7 +515,7 @@ const menuData = {
             "description": "Lemon Juice, Strawberry Syrup, Clear Mojito Syrup, Ice, Soda",
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781285451ChatGPT Image Jun 12, 2026, 08_30_12 PM.png",
-            "name_ar": "Strawberry Mojito",
+            "name_ar": "موهيتو فراولة",
             "description_ar": "Lemon Juice, Strawberry Syrup, Clear Mojito Syrup, Ice, Soda"
         },
         {
@@ -524,7 +524,7 @@ const menuData = {
             "description": "Lemon Juice, Clear Mojito Syrup, Ice, Soda",
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781459909ChatGPT Image Jun 14, 2026, 08_58_09 PM.png",
-            "name_ar": "Classic Mojito",
+            "name_ar": "كلاسيك موهيتو",
             "description_ar": "Lemon Juice, Clear Mojito Syrup, Ice, Soda"
         },
         {
@@ -533,7 +533,7 @@ const menuData = {
             "description": "Espresso, Ice, Frappe Base, Milk",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781287486ChatGPT Image Jun 12, 2026, 09_04_13 PM (1).png",
-            "name_ar": "Coffee Frappe",
+            "name_ar": "Coffee فرابيه",
             "description_ar": "Espresso, Ice, Frappe Base, Milk"
         },
         {
@@ -542,7 +542,7 @@ const menuData = {
             "description": "Espresso, Ice, Frappe Base, Milk Vanilla Syrup",
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781286967ChatGPT Image Jun 12, 2026, 08_55_44 PM.png",
-            "name_ar": "Vanilla Frappe",
+            "name_ar": "فانيليا فرابيه",
             "description_ar": "Espresso, Ice, Frappe Base, Milk Vanilla Syrup"
         },
         {
@@ -551,7 +551,7 @@ const menuData = {
             "description": "Espresso, Ice, Frappe Base, Milk, Caramel Sauce",
             "price": "145.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781287179ChatGPT Image Jun 12, 2026, 08_59_15 PM.png",
-            "name_ar": "Caramel Frappe",
+            "name_ar": "فرابيه كراميل",
             "description_ar": "Espresso, Ice, Frappe Base, Milk, Caramel Sauce"
         },
         {
@@ -560,7 +560,7 @@ const menuData = {
             "description": "Vanilla Ice Cream, Milk, Chocolate Sauce, Oreo, Chocolate Sauce",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781286296ChatGPT Image Jun 12, 2026, 08_40_41 PM.png",
-            "name_ar": "Oreo Frappe",
+            "name_ar": "أوريو فرابيه",
             "description_ar": "Vanilla Ice Cream, Milk, Chocolate Sauce, Oreo, Chocolate Sauce"
         },
         {
@@ -569,7 +569,7 @@ const menuData = {
             "description": "Espresso, Ice, Frappe Base, Milk, Chocolate Sauce",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
-            "name_ar": "Mocha Frappe",
+            "name_ar": "موكا فرابيه",
             "description_ar": "Espresso, Ice, Frappe Base, Milk, Chocolate Sauce"
         },
         {
@@ -578,7 +578,7 @@ const menuData = {
             "description": "Vanilla Ice Cream, Milk, Lotus Sauce, Lotus Biscuits, Lotus Sauce",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781287783ChatGPT Image Jun 12, 2026, 09_09_03 PM.png",
-            "name_ar": "Lotus",
+            "name_ar": "لوتس",
             "description_ar": "Vanilla Ice Cream, Milk, Lotus Sauce, Lotus Biscuits, Lotus Sauce"
         },
         {
@@ -596,7 +596,7 @@ const menuData = {
             "description": "Vanilla Ice Cream, Milk, Chocolate Sauce, Oreo Pieces",
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781288725ChatGPT Image Jun 12, 2026, 09_25_00 PM.png",
-            "name_ar": "Oreo",
+            "name_ar": "أوريو",
             "description_ar": "Vanilla Ice Cream, Milk, Chocolate Sauce, Oreo Pieces"
         },
         {
@@ -605,7 +605,7 @@ const menuData = {
             "description": "vanilla Ice Cream, Milk, Strawberry Sauce",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781288992ChatGPT Image Jun 12, 2026, 09_29_34 PM.png",
-            "name_ar": "Strawberry",
+            "name_ar": "فراولة",
             "description_ar": "vanilla Ice Cream, Milk, Strawberry Sauce"
         },
         {
@@ -614,7 +614,7 @@ const menuData = {
             "description": "Vanilla Ice Cream, Milk, chocolate, sauce",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781295800ChatGPT Image Jun 12, 2026, 11_22_49 PM.png",
-            "name_ar": "Chocolate",
+            "name_ar": "شوكولاتة",
             "description_ar": "Vanilla Ice Cream, Milk, chocolate, sauce"
         },
         {
@@ -623,7 +623,7 @@ const menuData = {
             "description": "Vanilla Ice Cream, Milk",
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781294998ChatGPT Image Jun 12, 2026, 11_09_35 PM.png",
-            "name_ar": "Vanilla",
+            "name_ar": "فانيليا",
             "description_ar": "Vanilla Ice Cream, Milk"
         },
         {
@@ -632,7 +632,7 @@ const menuData = {
             "description": "Lemon Juice, Fresh Mint, Sugar Syrup, Ice",
             "price": "50.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781296682ChatGPT Image Jun 12, 2026, 11_37_22 PM.png",
-            "name_ar": "Lemon Mint",
+            "name_ar": "ليمون نعناع",
             "description_ar": "Lemon Juice, Fresh Mint, Sugar Syrup, Ice"
         },
         {
@@ -641,7 +641,7 @@ const menuData = {
             "description": "Mango, Strawberry, Sugar Syrup, Ice",
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308158WhatsApp Image 2026-06-13 at 2.47.11 AM.jpeg",
-            "name_ar": "Mango Strawberry",
+            "name_ar": "مانجو فراولة",
             "description_ar": "Mango, Strawberry, Sugar Syrup, Ice"
         },
         {
@@ -650,7 +650,7 @@ const menuData = {
             "description": "Guava, strawberry. Sugar Syrup, Ice",
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781296361ChatGPT Image Jun 12, 2026, 11_32_15 PM.png",
-            "name_ar": "Guava Strawberry",
+            "name_ar": "Guava فراولة",
             "description_ar": "Guava, strawberry. Sugar Syrup, Ice"
         },
         {
@@ -668,7 +668,7 @@ const menuData = {
             "description": "Strawberry, Sugar Syrup, Ice",
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308462WhatsApp Image 2026-06-13 at 2.52.52 AM.jpeg",
-            "name_ar": "Strawberry",
+            "name_ar": "فراولة",
             "description_ar": "Strawberry, Sugar Syrup, Ice"
         },
         {
@@ -677,7 +677,7 @@ const menuData = {
             "description": "Mango, Sugar Syrup, Ice",
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308224WhatsApp Image 2026-06-13 at 2.49.36 AM.jpeg",
-            "name_ar": "Mango",
+            "name_ar": "مانجو",
             "description_ar": "Mango, Sugar Syrup, Ice"
         },
         {
@@ -686,7 +686,7 @@ const menuData = {
             "description": "Orange",
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308280WhatsApp Image 2026-06-13 at 2.50.24 AM.jpeg",
-            "name_ar": "Orange",
+            "name_ar": "برتقال",
             "description_ar": "Orange"
         },
         {
@@ -695,7 +695,7 @@ const menuData = {
             "description": "Pineapple, Ice, Sugar Syrup",
             "price": "90.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383154ChatGPT Image Jun 13, 2026, 11_38_39 PM.png",
-            "name_ar": "Pineapple Smoothie",
+            "name_ar": "أناناس Smoothie",
             "description_ar": "Pineapple, Ice, Sugar Syrup"
         },
         {
@@ -704,7 +704,7 @@ const menuData = {
             "description": "Strawberry, Blueberry, Raspberry, Ice, Sugar Syrup",
             "price": "100.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383364ChatGPT Image Jun 13, 2026, 11_42_07 PM.png",
-            "name_ar": "Berry Mix Smoothie",
+            "name_ar": "توت ميكس Smoothie",
             "description_ar": "Strawberry, Blueberry, Raspberry, Ice, Sugar Syrup"
         },
         {
@@ -713,7 +713,7 @@ const menuData = {
             "description": "Mango, Ice, Sugar Syrup",
             "price": "90.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383488ChatGPT Image Jun 13, 2026, 11_44_18 PM.png",
-            "name_ar": "Mango Smoothie",
+            "name_ar": "مانجو Smoothie",
             "description_ar": "Mango, Ice, Sugar Syrup"
         },
         {
@@ -722,7 +722,7 @@ const menuData = {
             "description": "Strawberry, Ice, Sugar Syrup",
             "price": "90.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383551ChatGPT Image Jun 13, 2026, 11_45_34 PM.png",
-            "name_ar": "Strawberry Smoothie",
+            "name_ar": "فراولة Smoothie",
             "description_ar": "Strawberry, Ice, Sugar Syrup"
         },
         {
@@ -731,7 +731,7 @@ const menuData = {
             "description": "French chocolate powder. full milk.",
             "price": "125.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387095hot chocolate.jpeg",
-            "name_ar": "Hot Chocolate",
+            "name_ar": "ساخن شوكولاتة",
             "description_ar": "French chocolate powder. full milk."
         },
         {
@@ -740,7 +740,7 @@ const menuData = {
             "description": "French white chocolate powder. full milk.",
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387130white hot chocolate.jpeg",
-            "name_ar": "White Hot Chocolate",
+            "name_ar": "وايت ساخن شوكولاتة",
             "description_ar": "French white chocolate powder. full milk."
         },
         {
@@ -749,7 +749,7 @@ const menuData = {
             "description": "matcha. milk. honey",
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387217matcha latte الاصلية.jpeg",
-            "name_ar": "Matcha Latte",
+            "name_ar": "ماتشا لاتيه",
             "description_ar": "matcha. milk. honey"
         },
         {
@@ -785,7 +785,7 @@ const menuData = {
             "description": "Available for any iced drink",
             "price": "35.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
-            "name_ar": "Popping Boba",
+            "name_ar": "Popping بوبا",
             "description_ar": "Available for any iced drink"
         },
         {

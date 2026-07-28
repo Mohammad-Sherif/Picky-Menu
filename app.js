@@ -88,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="${item.image || 'https://via.placeholder.com/150'}" alt="${itemName}" loading="lazy">
                     </div>
                     <div class="food-detail">
-                        <div class="star-badge"><i class="fas fa-star"></i> 0.0</div>
                         <h3 class="food-title">${itemName}</h3>
                         ${itemDesc ? `<div class="food-desc">${itemDesc}</div>` : ''}
                         <div class="price-container">

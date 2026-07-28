@@ -74,12 +74,6 @@ const menuData = {
             "id": "category-1342",
             "name": "Add-ons",
             "name_ar": "إضافات"
-        },
-        {
-            "id": "cat_1785270490826",
-            "name": "aa",
-            "name_ar": "aa",
-            "sort_order": 15
         }
     ],
     "items": [
@@ -90,7 +84,8 @@ const menuData = {
             "price": "100.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781377977flat white.jpeg",
             "name_ar": "فلات وايت",
-            "description_ar": "دبل ريستريتو، رغوة حليب خفيفة"
+            "description_ar": "دبل ريستريتو، رغوة حليب خفيفة",
+            "id": "item_1785272164748_0"
         },
         {
             "category_id": "category-1334",
@@ -99,7 +94,8 @@ const menuData = {
             "price": "100.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781377863cappicino.jpeg",
             "name_ar": "كابوتشينو",
-            "description_ar": "دبل شوت اسبريسو، حليب مبخر"
+            "description_ar": "دبل شوت اسبريسو، حليب مبخر",
+            "id": "item_1785272164748_1"
         },
         {
             "category_id": "category-1334",
@@ -108,7 +104,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378034latte.jpeg",
             "name_ar": "لاتيه",
-            "description_ar": "دبل شوت اسبريسو، حليب مبخر"
+            "description_ar": "دبل شوت اسبريسو، حليب مبخر",
+            "id": "item_1785272164748_2"
         },
         {
             "category_id": "category-1334",
@@ -117,7 +114,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781381506ChatGPT Image Jun 13, 2026, 11_07_37 PM.png",
             "name_ar": "سبانيش لاتيه",
-            "description_ar": "دبل شوت اسبريسو، حليب مكثف، حليب مبخر"
+            "description_ar": "دبل شوت اسبريسو، حليب مكثف، حليب مبخر",
+            "id": "item_1785272164748_3"
         },
         {
             "category_id": "category-1334",
@@ -126,7 +124,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378253mocha.jpeg",
             "name_ar": "موكا / وايت موكا",
-            "description_ar": "اسبريسو، صوص وايت موكا، حليب مبخر"
+            "description_ar": "اسبريسو، صوص وايت موكا، حليب مبخر",
+            "id": "item_1785272164748_4"
         },
         {
             "category_id": "category-1334",
@@ -135,7 +134,8 @@ const menuData = {
             "price": "95.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781382256ChatGPT Image Jun 13, 2026, 11_22_49 PM.png",
             "name_ar": "كورتادو",
-            "description_ar": "دبل شوت اسبريسو، حليب مبخر"
+            "description_ar": "دبل شوت اسبريسو، حليب مبخر",
+            "id": "item_1785272164748_5"
         },
         {
             "category_id": "category-1334",
@@ -144,7 +144,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378445WhatsApp Image 2026-06-13 at 9.23.44 PM.jpeg",
             "name_ar": "أمريكانو",
-            "description_ar": "دبل شوت اسبريسو، ماء ساخن"
+            "description_ar": "دبل شوت اسبريسو، ماء ساخن",
+            "id": "item_1785272164748_6"
         },
         {
             "category_id": "category-1334",
@@ -153,7 +154,8 @@ const menuData = {
             "price": "85.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378389WhatsApp Image 2026-06-13 at 9.20.19 PM.jpeg",
             "name_ar": "دبل اسبريسو",
-            "description_ar": "دبل اسبريسو"
+            "description_ar": "دبل اسبريسو",
+            "id": "item_1785272164748_7"
         },
         {
             "category_id": "category-1334",
@@ -162,7 +164,8 @@ const menuData = {
             "price": "65.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378324WhatsApp Image 2026-06-13 at 9.20.19 PM.jpeg",
             "name_ar": "اسبريسو",
-            "description_ar": "اسبريسو"
+            "description_ar": "اسبريسو",
+            "id": "item_1785272164748_8"
         },
         {
             "category_id": "category-1335",
@@ -171,7 +174,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781274570ChatGPT Image Jun 12, 2026, 05_28_25 PM.png",
             "name_ar": "آيس لاتيه",
-            "description_ar": "دبل شوت اسبريسو، ثلج، حليب"
+            "description_ar": "دبل شوت اسبريسو، ثلج، حليب",
+            "id": "item_1785272164748_9"
         },
         {
             "category_id": "category-1335",
@@ -180,7 +184,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781274085ChatGPT Image Jun 12, 2026, 05_19_14 PM.png",
             "name_ar": "آيس سبانيش لاتيه",
-            "description_ar": "دبل شوت اسبريسو، ثلج، حليب، حليب مكثف"
+            "description_ar": "دبل شوت اسبريسو، ثلج، حليب، حليب مكثف",
+            "id": "item_1785272164748_10"
         },
         {
             "category_id": "category-1335",
@@ -189,7 +194,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781460635iced caramel micato.jpeg",
             "name_ar": "آيس كراميل ميكياتو",
-            "description_ar": "دبل شوت اسبريسو، ثلج، سيرب فانيليا، حليب، صوص كراميل"
+            "description_ar": "دبل شوت اسبريسو، ثلج، سيرب فانيليا، حليب، صوص كراميل",
+            "id": "item_1785272164748_11"
         },
         {
             "category_id": "category-1335",
@@ -198,7 +204,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781460791iced mocha.jpeg",
             "name_ar": "آيس موكا",
-            "description_ar": "دبل شوت اسبريسو، Cup Filled with ثلج، شوكولاتة صوص، حليب"
+            "description_ar": "دبل شوت اسبريسو، Cup Filled with ثلج، شوكولاتة صوص، حليب",
+            "id": "item_1785272164748_12"
         },
         {
             "category_id": "category-1335",
@@ -207,7 +214,8 @@ const menuData = {
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781275337ChatGPT Image Jun 12, 2026, 05_41_29 PM.png",
             "name_ar": "آيس Americano",
-            "description_ar": "دبل شوت اسبريسو، ثلج، Cold ماء"
+            "description_ar": "دبل شوت اسبريسو، ثلج، Cold ماء",
+            "id": "item_1785272164748_13"
         },
         {
             "category_id": "category-1341",
@@ -216,7 +224,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/17812814489C73C34D-ED4A-427B-88BA-9B20C8D7BE6A.png",
             "name_ar": "Passion Fruit popping بوبا",
-            "description_ar": "صودا،Passion Fruit Puree، ليمون Juice، popping بوبا، ثلج"
+            "description_ar": "صودا،Passion Fruit Puree، ليمون Juice، popping بوبا، ثلج",
+            "id": "item_1785272164748_14"
         },
         {
             "category_id": "category-1341",
@@ -225,7 +234,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/17812815337D87BF3C-F256-47DA-AB8F-5AF34DCE2585.png",
             "name_ar": "توت أزرق بوبا",
-            "description_ar": "صودا، blueberry سيرب، ليمون juice، pooping بوبا، ثلج"
+            "description_ar": "صودا، blueberry سيرب، ليمون juice، pooping بوبا، ثلج",
+            "id": "item_1785272164748_15"
         },
         {
             "category_id": "category-1341",
@@ -234,7 +244,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/178128175189190AC8-85AF-4C8F-8415-73DE5621EF51.png",
             "name_ar": "فراولة Popping بوبا",
-            "description_ar": "صودا،بيوريه فراولة، ليمون Juice، Sugar سيرب، فراولة Popping بوبا، ثلج"
+            "description_ar": "صودا،بيوريه فراولة، ليمون Juice، Sugar سيرب، فراولة Popping بوبا، ثلج",
+            "id": "item_1785272164748_16"
         },
         {
             "category_id": "category-1341",
@@ -243,7 +254,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781281131E26C4929-31F4-4663-95F7-7F73E7BB5EFD.png",
             "name_ar": "مانجو Popping بوبا",
-            "description_ar": "صودا، بيوريه مانجو، popping بوبا، ثلج"
+            "description_ar": "صودا، بيوريه مانجو، popping بوبا، ثلج",
+            "id": "item_1785272164748_17"
         },
         {
             "category_id": "category-1340",
@@ -252,7 +264,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781382914ChatGPT Image Jun 13, 2026, 11_34_52 PM.png",
             "name_ar": "Brown Sugar Cream لاتيه",
-            "description_ar": "أسود شاي، حليب، سكر بني صوص، Cream Foam، بوبا، ثلج"
+            "description_ar": "أسود شاي، حليب، سكر بني صوص، Cream Foam، بوبا، ثلج",
+            "id": "item_1785272164748_18"
         },
         {
             "category_id": "category-1340",
@@ -261,7 +274,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781380602ChatGPT Image Jun 13, 2026, 10_54_17 PM.png",
             "name_ar": "مانجو Coconut بوبا",
-            "description_ar": "أخضر شاي، حليب، بيوريه مانجو، Coconut سيرب، بوبا، ثلج"
+            "description_ar": "أخضر شاي، حليب، بيوريه مانجو، Coconut سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_19"
         },
         {
             "category_id": "category-1340",
@@ -270,7 +284,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781381464ChatGPT Image Jun 13, 2026, 11_10_39 PM.png",
             "name_ar": "Matcha Cream بوبا",
-            "description_ar": "Matcha، حليب، Sugar سيرب، cream foam. بوبا، ثلج"
+            "description_ar": "Matcha، حليب، Sugar سيرب، cream foam. بوبا، ثلج",
+            "id": "item_1785272164748_20"
         },
         {
             "category_id": "category-1340",
@@ -279,7 +294,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378744nutella boba.jpeg",
             "name_ar": "Nutella Milk بوبا",
-            "description_ar": "أسود شاي، حليب، Nutella . Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أسود شاي، حليب، Nutella . Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_21"
         },
         {
             "category_id": "category-1340",
@@ -288,7 +304,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378713kinder boba.jpeg",
             "name_ar": "Kinder Milk بوبا",
-            "description_ar": "حليب، Kinder صوص، بوبا، ثلج"
+            "description_ar": "حليب، Kinder صوص، بوبا، ثلج",
+            "id": "item_1785272164748_22"
         },
         {
             "category_id": "category-1340",
@@ -297,7 +314,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378684pistachio boba.jpeg",
             "name_ar": "فستق Milk بوبا",
-            "description_ar": "حليب، Pistachio صوص، بوبا، ثلج"
+            "description_ar": "حليب، Pistachio صوص، بوبا، ثلج",
+            "id": "item_1785272164748_23"
         },
         {
             "category_id": "category-1340",
@@ -306,7 +324,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781378849lotus boba.jpeg",
             "name_ar": "لوتس Milk بوبا",
-            "description_ar": "حليب، lotus صوص، lotus Pieces، بوبا، ثلج"
+            "description_ar": "حليب، lotus صوص، lotus Pieces، بوبا، ثلج",
+            "id": "item_1785272164748_24"
         },
         {
             "category_id": "category-1340",
@@ -315,7 +334,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781379678oreo boba.jpeg",
             "name_ar": "أوريو Milk بوبا",
-            "description_ar": "حليب، شوكولاتة Powder، شوكولاتة صوص، Oreo Pieces، بوبا، ثلج"
+            "description_ar": "حليب، شوكولاتة Powder، شوكولاتة صوص، Oreo Pieces، بوبا، ثلج",
+            "id": "item_1785272164748_25"
         },
         {
             "category_id": "category-1340",
@@ -324,7 +344,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781382504ChatGPT Image Jun 13, 2026, 11_28_09 PM.png",
             "name_ar": "فراولة Milk بوبا",
-            "description_ar": "حليب، بيوريه فراولة، Cream Foam، بوبا"
+            "description_ar": "حليب، بيوريه فراولة، Cream Foam، بوبا",
+            "id": "item_1785272164748_26"
         },
         {
             "category_id": "category-1339",
@@ -333,7 +354,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387772WhatsApp Image 2026-06-14 at 12.45.12 AM.jpeg",
             "name_ar": "Passion Fruit شاي",
-            "description_ar": "أخضر شاي، Passion Fruit Puree، Sugar سيرب، ليمون Juice، بوبا، ثلج"
+            "description_ar": "أخضر شاي، Passion Fruit Puree، Sugar سيرب، ليمون Juice، بوبا، ثلج",
+            "id": "item_1785272164748_27"
         },
         {
             "category_id": "category-1339",
@@ -342,7 +364,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781388471blueberry tea.jpeg",
             "name_ar": "توت أزرق شاي",
-            "description_ar": "أخضر شاي، Blueberry سيرب، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أخضر شاي، Blueberry سيرب، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_28"
         },
         {
             "category_id": "category-1339",
@@ -351,7 +374,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "فراولة شاي",
-            "description_ar": "أخضر شاي، بيوريه فراولة، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أخضر شاي، بيوريه فراولة، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_29"
         },
         {
             "category_id": "category-1339",
@@ -360,7 +384,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781459456ChatGPT Image Jun 14, 2026, 08_50_31 PM.png",
             "name_ar": "خوخ شاي",
-            "description_ar": "أخضر شاي، Peach سيرب، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أخضر شاي، Peach سيرب، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_30"
         },
         {
             "category_id": "category-1339",
@@ -369,7 +394,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781390072ChatGPT Image Jun 14, 2026, 01_32_23 AM.png",
             "name_ar": "مانجو شاي",
-            "description_ar": "أخضر شاي، بيوريه مانجو، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أخضر شاي، بيوريه مانجو، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_31"
         },
         {
             "category_id": "category-1339",
@@ -378,7 +404,8 @@ const menuData = {
             "price": "115.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781390503lemon tea.jpeg",
             "name_ar": "ليمون شاي",
-            "description_ar": "أسود شاي، ليمون Juice، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أسود شاي، ليمون Juice، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_32"
         },
         {
             "category_id": "category-1339",
@@ -387,7 +414,8 @@ const menuData = {
             "price": "115.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781461502ChatGPT Image Jun 14, 2026, 09_24_43 PM.png",
             "name_ar": "Green تفاح شاي",
-            "description_ar": "أخضر شاي، أخضر Apple سيرب، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أخضر شاي، أخضر Apple سيرب، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_33"
         },
         {
             "category_id": "category-1338",
@@ -396,7 +424,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781384813ChatGPT Image Jun 14, 2026, 12_06_30 AM.png",
             "name_ar": "Coconut Milk شاي",
-            "description_ar": "أسود شاي، حليب، Coconut سيرب، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أسود شاي، حليب، Coconut سيرب، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_34"
         },
         {
             "category_id": "category-1338",
@@ -405,7 +434,8 @@ const menuData = {
             "price": "145.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781384663ChatGPT Image Jun 14, 2026, 12_03_32 AM.png",
             "name_ar": "شوكولاتة Milk شاي",
-            "description_ar": "أسود شاي، حليب، شوكولاتة Powder، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أسود شاي، حليب، شوكولاتة Powder، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_35"
         },
         {
             "category_id": "category-1338",
@@ -414,7 +444,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781388600vanilla milk tea.jpeg",
             "name_ar": "فانيليا Milk شاي",
-            "description_ar": "حليب، سيرب فانيليا، بوبا، ثلج"
+            "description_ar": "حليب، سيرب فانيليا، بوبا، ثلج",
+            "id": "item_1785272164748_36"
         },
         {
             "category_id": "category-1338",
@@ -423,7 +454,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781388090thai milk tea.jpeg",
             "name_ar": "Thai Milk شاي",
-            "description_ar": "أسود شاي، حليب، بوبا"
+            "description_ar": "أسود شاي، حليب، بوبا",
+            "id": "item_1785272164748_37"
         },
         {
             "category_id": "category-1338",
@@ -432,7 +464,8 @@ const menuData = {
             "price": "155.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781386062ChatGPT Image Jun 14, 2026, 12_27_20 AM.png",
             "name_ar": "Matcha Milk شاي",
-            "description_ar": "بودرة ماتشا، حليب، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "بودرة ماتشا، حليب، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_38"
         },
         {
             "category_id": "category-1338",
@@ -441,7 +474,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383286ChatGPT Image Jun 13, 2026, 11_39_40 PM.png",
             "name_ar": "Brown Sugar Milk شاي",
-            "description_ar": "أسود شاي، حليب، سكر بني صوص، بوبا، ثلج"
+            "description_ar": "أسود شاي، حليب، سكر بني صوص، بوبا، ثلج",
+            "id": "item_1785272164748_39"
         },
         {
             "category_id": "category-1338",
@@ -450,7 +484,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781384233ChatGPT Image Jun 13, 2026, 11_52_53 PM.png",
             "name_ar": "كلاسيك Milk شاي",
-            "description_ar": "أسود شاي، حليب، Sugar سيرب، بوبا، ثلج"
+            "description_ar": "أسود شاي، حليب، Sugar سيرب، بوبا، ثلج",
+            "id": "item_1785272164748_40"
         },
         {
             "category_id": "category-1337",
@@ -459,7 +494,8 @@ const menuData = {
             "price": "145.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781276494ChatGPT Image Jun 12, 2026, 05_57_39 PM.png",
             "name_ar": "Coconut Matcha لاتيه",
-            "description_ar": "coconut حليب. بودرة ماتشا. honey"
+            "description_ar": "coconut حليب. بودرة ماتشا. honey",
+            "id": "item_1785272164748_41"
         },
         {
             "category_id": "category-1337",
@@ -468,7 +504,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781277083ChatGPT Image Jun 12, 2026, 06_10_55 PM.png",
             "name_ar": "فراولة Matcha لاتيه",
-            "description_ar": "بيوريه فراولة، حليب، بودرة ماتشا، ثلج"
+            "description_ar": "بيوريه فراولة، حليب، بودرة ماتشا، ثلج",
+            "id": "item_1785272164748_42"
         },
         {
             "category_id": "category-1337",
@@ -477,7 +514,8 @@ const menuData = {
             "price": "160.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781277629ChatGPT Image Jun 12, 2026, 06_18_54 PM.png",
             "name_ar": "Matcha فرابيه",
-            "description_ar": "ثلج، حليب، بودرة ماتشا، Frappe Base، سيرب فانيليا"
+            "description_ar": "ثلج، حليب، بودرة ماتشا، Frappe Base، سيرب فانيليا",
+            "id": "item_1785272164748_43"
         },
         {
             "category_id": "category-1337",
@@ -486,7 +524,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781277983ChatGPT Image Jun 12, 2026, 06_25_38 PM.png",
             "name_ar": "آيس Matcha لاتيه",
-            "description_ar": "حليب، بودرة ماتشا، Honey، ثلج"
+            "description_ar": "حليب، بودرة ماتشا، Honey، ثلج",
+            "id": "item_1785272164748_44"
         },
         {
             "category_id": "category-1337",
@@ -495,7 +534,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781279455ChatGPT Image Jun 12, 2026, 06_49_58 PM.png",
             "name_ar": "Matcha لاتيه (Hot)",
-            "description_ar": "حليب، بودرة ماتشا، Honey"
+            "description_ar": "حليب، بودرة ماتشا، Honey",
+            "id": "item_1785272164748_45"
         },
         {
             "category_id": "category-1344",
@@ -504,7 +544,8 @@ const menuData = {
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781283061ChatGPT Image Jun 12, 2026, 07_50_36 PM.png",
             "name_ar": "Passion Fruit موهيتو",
-            "description_ar": "ليمون Juice، Passion Fruit سيرب، Clear Mojito سيرب، ثلج، صودا"
+            "description_ar": "ليمون Juice، Passion Fruit سيرب، Clear Mojito سيرب، ثلج، صودا",
+            "id": "item_1785272164748_46"
         },
         {
             "category_id": "category-1344",
@@ -513,7 +554,8 @@ const menuData = {
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781282164ChatGPT Image Jun 12, 2026, 07_34_29 PM.png",
             "name_ar": "توت أزرق موهيتو",
-            "description_ar": "ليمون Juice، Clear Mojito سيرب، ثلج، صودا .blueberry سيرب"
+            "description_ar": "ليمون Juice، Clear Mojito سيرب، ثلج، صودا .blueberry سيرب",
+            "id": "item_1785272164748_47"
         },
         {
             "category_id": "category-1344",
@@ -522,7 +564,8 @@ const menuData = {
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781285451ChatGPT Image Jun 12, 2026, 08_30_12 PM.png",
             "name_ar": "موهيتو فراولة",
-            "description_ar": "ليمون Juice، فراولة سيرب، Clear Mojito سيرب، ثلج، صودا"
+            "description_ar": "ليمون Juice، فراولة سيرب، Clear Mojito سيرب، ثلج، صودا",
+            "id": "item_1785272164748_48"
         },
         {
             "category_id": "category-1344",
@@ -531,7 +574,8 @@ const menuData = {
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781459909ChatGPT Image Jun 14, 2026, 08_58_09 PM.png",
             "name_ar": "كلاسيك موهيتو",
-            "description_ar": "ليمون Juice، Clear Mojito سيرب، ثلج، صودا"
+            "description_ar": "ليمون Juice، Clear Mojito سيرب، ثلج، صودا",
+            "id": "item_1785272164748_49"
         },
         {
             "category_id": "category-1336",
@@ -540,7 +584,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781287486ChatGPT Image Jun 12, 2026, 09_04_13 PM (1).png",
             "name_ar": "Coffee فرابيه",
-            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب"
+            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب",
+            "id": "item_1785272164748_50"
         },
         {
             "category_id": "category-1336",
@@ -549,7 +594,8 @@ const menuData = {
             "price": "140.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781286967ChatGPT Image Jun 12, 2026, 08_55_44 PM.png",
             "name_ar": "فانيليا فرابيه",
-            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب سيرب فانيليا"
+            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب سيرب فانيليا",
+            "id": "item_1785272164748_51"
         },
         {
             "category_id": "category-1336",
@@ -558,7 +604,8 @@ const menuData = {
             "price": "145.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781287179ChatGPT Image Jun 12, 2026, 08_59_15 PM.png",
             "name_ar": "فرابيه كراميل",
-            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب، صوص كراميل"
+            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب، صوص كراميل",
+            "id": "item_1785272164748_52"
         },
         {
             "category_id": "category-1336",
@@ -567,7 +614,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781286296ChatGPT Image Jun 12, 2026, 08_40_41 PM.png",
             "name_ar": "أوريو فرابيه",
-            "description_ar": "فانيليا آيس كريم، حليب، شوكولاتة صوص، Oreo، شوكولاتة صوص"
+            "description_ar": "فانيليا آيس كريم، حليب، شوكولاتة صوص، Oreo، شوكولاتة صوص",
+            "id": "item_1785272164748_53"
         },
         {
             "category_id": "category-1336",
@@ -576,7 +624,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "موكا فرابيه",
-            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب، شوكولاتة صوص"
+            "description_ar": "اسبريسو، ثلج، Frappe Base، حليب، شوكولاتة صوص",
+            "id": "item_1785272164748_54"
         },
         {
             "category_id": "category-1343",
@@ -585,7 +634,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781287783ChatGPT Image Jun 12, 2026, 09_09_03 PM.png",
             "name_ar": "لوتس",
-            "description_ar": "فانيليا آيس كريم، حليب، Lotus صوص، Lotus Biscuits، Lotus صوص"
+            "description_ar": "فانيليا آيس كريم، حليب، Lotus صوص، Lotus Biscuits، Lotus صوص",
+            "id": "item_1785272164748_55"
         },
         {
             "category_id": "category-1343",
@@ -594,7 +644,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781288261ChatGPT Image Jun 12, 2026, 09_15_41 PM.png",
             "name_ar": "Nutella",
-            "description_ar": "فانيليا آيس كريم، حليب، Nutella، Nutella صوص"
+            "description_ar": "فانيليا آيس كريم، حليب، Nutella، Nutella صوص",
+            "id": "item_1785272164748_56"
         },
         {
             "category_id": "category-1343",
@@ -603,7 +654,8 @@ const menuData = {
             "price": "120.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781288725ChatGPT Image Jun 12, 2026, 09_25_00 PM.png",
             "name_ar": "أوريو",
-            "description_ar": "فانيليا آيس كريم، حليب، شوكولاتة صوص، Oreo Pieces"
+            "description_ar": "فانيليا آيس كريم، حليب، شوكولاتة صوص، Oreo Pieces",
+            "id": "item_1785272164748_57"
         },
         {
             "category_id": "category-1343",
@@ -612,7 +664,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781288992ChatGPT Image Jun 12, 2026, 09_29_34 PM.png",
             "name_ar": "فراولة",
-            "description_ar": "فانيليا آيس كريم، حليب، فراولة صوص"
+            "description_ar": "فانيليا آيس كريم، حليب، فراولة صوص",
+            "id": "item_1785272164748_58"
         },
         {
             "category_id": "category-1343",
@@ -621,7 +674,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781295800ChatGPT Image Jun 12, 2026, 11_22_49 PM.png",
             "name_ar": "شوكولاتة",
-            "description_ar": "فانيليا آيس كريم، حليب، شوكولاتة، صوص"
+            "description_ar": "فانيليا آيس كريم، حليب، شوكولاتة، صوص",
+            "id": "item_1785272164748_59"
         },
         {
             "category_id": "category-1343",
@@ -630,7 +684,8 @@ const menuData = {
             "price": "110.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781294998ChatGPT Image Jun 12, 2026, 11_09_35 PM.png",
             "name_ar": "فانيليا",
-            "description_ar": "فانيليا آيس كريم، حليب"
+            "description_ar": "فانيليا آيس كريم، حليب",
+            "id": "item_1785272164748_60"
         },
         {
             "category_id": "category-1345",
@@ -639,7 +694,8 @@ const menuData = {
             "price": "50.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781296682ChatGPT Image Jun 12, 2026, 11_37_22 PM.png",
             "name_ar": "ليمون نعناع",
-            "description_ar": "ليمون Juice، نعناع فريش، Sugar سيرب، ثلج"
+            "description_ar": "ليمون Juice، نعناع فريش، Sugar سيرب، ثلج",
+            "id": "item_1785272164748_61"
         },
         {
             "category_id": "category-1345",
@@ -648,7 +704,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308158WhatsApp Image 2026-06-13 at 2.47.11 AM.jpeg",
             "name_ar": "مانجو فراولة",
-            "description_ar": "مانجو، فراولة، Sugar سيرب، ثلج"
+            "description_ar": "مانجو، فراولة، Sugar سيرب، ثلج",
+            "id": "item_1785272164748_62"
         },
         {
             "category_id": "category-1345",
@@ -657,7 +714,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781296361ChatGPT Image Jun 12, 2026, 11_32_15 PM.png",
             "name_ar": "Guava فراولة",
-            "description_ar": "Guava، فراولة. Sugar سيرب، ثلج"
+            "description_ar": "Guava، فراولة. Sugar سيرب، ثلج",
+            "id": "item_1785272164748_63"
         },
         {
             "category_id": "category-1345",
@@ -666,7 +724,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383835ChatGPT Image Jun 13, 2026, 11_47_34 PM.png",
             "name_ar": "Guava",
-            "description_ar": "Guava، Sugar سيرب، ثلج"
+            "description_ar": "Guava، Sugar سيرب، ثلج",
+            "id": "item_1785272164748_64"
         },
         {
             "category_id": "category-1345",
@@ -675,7 +734,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308462WhatsApp Image 2026-06-13 at 2.52.52 AM.jpeg",
             "name_ar": "فراولة",
-            "description_ar": "فراولة، Sugar سيرب، ثلج"
+            "description_ar": "فراولة، Sugar سيرب، ثلج",
+            "id": "item_1785272164748_65"
         },
         {
             "category_id": "category-1345",
@@ -684,7 +744,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308224WhatsApp Image 2026-06-13 at 2.49.36 AM.jpeg",
             "name_ar": "مانجو",
-            "description_ar": "مانجو، Sugar سيرب، ثلج"
+            "description_ar": "مانجو، Sugar سيرب، ثلج",
+            "id": "item_1785272164748_66"
         },
         {
             "category_id": "category-1345",
@@ -693,7 +754,8 @@ const menuData = {
             "price": "70.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781308280WhatsApp Image 2026-06-13 at 2.50.24 AM.jpeg",
             "name_ar": "برتقال",
-            "description_ar": "Orange"
+            "description_ar": "Orange",
+            "id": "item_1785272164748_67"
         },
         {
             "category_id": "category-1346",
@@ -702,7 +764,8 @@ const menuData = {
             "price": "90.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383154ChatGPT Image Jun 13, 2026, 11_38_39 PM.png",
             "name_ar": "أناناس Smoothie",
-            "description_ar": "Pineapple، ثلج، Sugar سيرب"
+            "description_ar": "Pineapple، ثلج، Sugar سيرب",
+            "id": "item_1785272164748_68"
         },
         {
             "category_id": "category-1346",
@@ -711,7 +774,8 @@ const menuData = {
             "price": "100.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383364ChatGPT Image Jun 13, 2026, 11_42_07 PM.png",
             "name_ar": "توت ميكس Smoothie",
-            "description_ar": "فراولة، Blueberry، Raspberry، ثلج، Sugar سيرب"
+            "description_ar": "فراولة، Blueberry، Raspberry، ثلج، Sugar سيرب",
+            "id": "item_1785272164748_69"
         },
         {
             "category_id": "category-1346",
@@ -720,7 +784,8 @@ const menuData = {
             "price": "90.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383488ChatGPT Image Jun 13, 2026, 11_44_18 PM.png",
             "name_ar": "مانجو Smoothie",
-            "description_ar": "مانجو، ثلج، Sugar سيرب"
+            "description_ar": "مانجو، ثلج، Sugar سيرب",
+            "id": "item_1785272164748_70"
         },
         {
             "category_id": "category-1346",
@@ -729,7 +794,8 @@ const menuData = {
             "price": "90.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781383551ChatGPT Image Jun 13, 2026, 11_45_34 PM.png",
             "name_ar": "فراولة Smoothie",
-            "description_ar": "فراولة، ثلج، Sugar سيرب"
+            "description_ar": "فراولة، ثلج، Sugar سيرب",
+            "id": "item_1785272164748_71"
         },
         {
             "category_id": "category-1347",
@@ -738,7 +804,8 @@ const menuData = {
             "price": "125.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387095hot chocolate.jpeg",
             "name_ar": "ساخن شوكولاتة",
-            "description_ar": "French شوكولاتة powder. full حليب."
+            "description_ar": "French شوكولاتة powder. full حليب.",
+            "id": "item_1785272164748_72"
         },
         {
             "category_id": "category-1347",
@@ -747,7 +814,8 @@ const menuData = {
             "price": "130.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387130white hot chocolate.jpeg",
             "name_ar": "وايت ساخن شوكولاتة",
-            "description_ar": "French white شوكولاتة powder. full حليب."
+            "description_ar": "French white شوكولاتة powder. full حليب.",
+            "id": "item_1785272164748_73"
         },
         {
             "category_id": "category-1347",
@@ -756,7 +824,8 @@ const menuData = {
             "price": "150.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387217matcha latte الاصلية.jpeg",
             "name_ar": "ماتشا لاتيه",
-            "description_ar": "matcha. حليب. honey"
+            "description_ar": "matcha. حليب. honey",
+            "id": "item_1785272164748_74"
         },
         {
             "category_id": "category-1347",
@@ -765,7 +834,8 @@ const menuData = {
             "price": "115.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/1781387953ChatGPT Image Jun 14, 2026, 12_57_47 AM.png",
             "name_ar": "Cinnamon Milk",
-            "description_ar": "حليب، cinnamon"
+            "description_ar": "حليب، cinnamon",
+            "id": "item_1785272164748_75"
         },
         {
             "category_id": "category-1348",
@@ -774,7 +844,8 @@ const menuData = {
             "price": "15.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "Water",
-            "description_ar": "."
+            "description_ar": ".",
+            "id": "item_1785272164748_76"
         },
         {
             "category_id": "category-1348",
@@ -783,7 +854,8 @@ const menuData = {
             "price": "80.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "Red Bull",
-            "description_ar": "Red bull"
+            "description_ar": "Red bull",
+            "id": "item_1785272164748_77"
         },
         {
             "category_id": "category-1342",
@@ -792,7 +864,8 @@ const menuData = {
             "price": "35.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "Popping بوبا",
-            "description_ar": "Available for any iced drink"
+            "description_ar": "Available for any iced drink",
+            "id": "item_1785272164748_78"
         },
         {
             "category_id": "category-1342",
@@ -801,7 +874,8 @@ const menuData = {
             "price": "30.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "Tapioca Pearls",
-            "description_ar": "Available for any iced drink"
+            "description_ar": "Available for any iced drink",
+            "id": "item_1785272164748_79"
         },
         {
             "category_id": "category-1342",
@@ -810,7 +884,8 @@ const menuData = {
             "price": "20.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "sauce",
-            "description_ar": "Available for any iced drink"
+            "description_ar": "Available for any iced drink",
+            "id": "item_1785272164748_80"
         },
         {
             "category_id": "category-1342",
@@ -819,17 +894,8 @@ const menuData = {
             "price": "35.00 EGP",
             "image": "https://plattir-replica.s3.us-east-1.amazonaws.com/foodimage/food_6a25390979185.png",
             "name_ar": "Cream Foam",
-            "description_ar": "Available for any iced drink"
-        },
-        {
-            "category_id": "cat_1785270490826",
-            "name": "يييييس",
-            "name_ar": "سسسسسسسسس",
-            "price": "222 EGP",
-            "description": "11",
-            "description_ar": "111",
-            "image": "",
-            "id": "item_1785270559424"
+            "description_ar": "Available for any iced drink",
+            "id": "item_1785272164748_81"
         }
     ]
 };

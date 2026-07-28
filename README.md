@@ -4,51 +4,51 @@ Welcome to the **Picky Menu App**, a fully bilingual (English/Arabic), mobile-op
 
 ---
 
-### أولاً: إزاي تشغل الموقع (المنيو) وتاخد اللينك بتاعه
-الموقع دلوقتي مرفوع كملفات بس، عشان نخليه موقع شغال على النت ببلاش اعمل الآتي:
-1. ادخل على رابط المستودع (الريبو) بتاعك على جيت هاب.
-2. فوق على اليمين هتلاقي كلمة **Settings** (الإعدادات)، دوس عليها.
-3. من القائمة اللي على الشمال، انزل تحت واختار **Pages**.
-4. في نص الصفحة تحت كلمة `Build and deployment`، هتلاقي اختيار اسمه `Branch`. 
-5. افتح القائمة المكتوب فيها `None` واختار `main`، وبعدين دوس **Save**.
-6. استنى بالظبط دقيقتين أو تلاتة واعمل Refresh للصفحة دي، هتلاقيه كتبلك فوق إن موقعك بقى شغال واداك اللينك بتاعه! 
+### Part 1: How to Host the Website and Get Your Link
+The website is currently a collection of files. To host it online for free, follow these steps:
+1. Go to your repository link on GitHub.
+2. In the top right corner, click on **Settings**.
+3. From the left sidebar, scroll down and select **Pages**.
+4. In the middle of the page under `Build and deployment`, you will find a section called `Branch`. 
+5. Open the dropdown menu that says `None` and select `main`, then click **Save**.
+6. Wait exactly two or three minutes and refresh the page. You will see a message at the top saying your site is live, along with the link! 
 
-*(اللينك هيكون بالشكل ده: `https://[اسم-حسابك].github.io/[اسم-الريبو]/`)*
-
----
-
-### ثانياً: إزاي بتاع الـ IT يدخل على لوحة التحكم (Admin Panel)
-لوحة التحكم دي مخفية ومش معمولة للزباين، عشان كده الدخول عليها له طريقة خاصة ومبتعتمدش على أكونت معين:
-1. بعد ما تجيب لينك الموقع من الخطوة اللي فاتت، ضيف في آخره كلمة `admin.html`. 
-*(يعني الرابط هيكون كده: `https://[اسم-حسابك].github.io/[اسم-الريبو]/admin.html`)*
-
-2. أول ما يفتح لوحة التحكم، هيطلب منه 3 بيانات عشان يتأكد إنه صاحب الموقع:
-   - **Repository Owner (Username):** يكتب اسم الأكونت اللي مرفوع عليه المشروع في جيت هاب.
-   - **Repository Name:** يكتب اسم الريبو (المستودع).
-   - **GitHub Token (Secret Key):** ده الرقم السري اللي بيطلعه من حسابه على جيت هاب، وهشرحلك بيطلعه إزاي حالا.
+*(The link will look like this: `https://[your-username].github.io/[your-repo-name]/`)*
 
 ---
 
-### ثالثاً: إزاي تجيب الرقم السري (GitHub Token) للوحة التحكم
-الخطوة دي بيعملها بتاع الـ IT مرة واحدة بس عشان يجيب الباسورد اللي هيتحكم بيه في المنيو (سواء على الأكونت ده أو أي أكونت تاني):
+### Part 2: How the IT Admin Can Access the Admin Panel
+The admin panel is hidden and not meant for customers, so accessing it requires a specific method that does not depend on a specific account:
+1. After getting the website link from the previous step, add `admin.html` to the end of it. 
+*(The link will look like this: `https://[your-username].github.io/[your-repo-name]/admin.html`)*
 
-1. وهو فاتح حسابه على GitHub، يدوس على صورته فوق على اليمين ويختار Settings.
-2. ينزل تحت خاااالص في القائمة اللي على الشمال ويختار Developer settings.
-3. من القائمة اللي على الشمال يختار Personal access tokens وبعدين يختار Tokens (classic).
-4. يدوس على الزرار اللي فوق يمين Generate new token (classic).
-5. في خانة الـ Note يكتب أي اسم زي Picky Admin.
-6. في خانة الـ Expiration يختار No expiration عشان الباسورد ده ميفسدش ويفضل شغال على طول.
-7. ينزل تحت عند الخانات اللي بتتعلم بعلامة الصح، ويعلم صح على أول مربع بس اللي مكتوب جنبه repo (ده بيديله صلاحية تعديل الملفات).
-8. ينزل تحت خالص ويدوس Generate token.
-9. هيظهرله كود طويل بيبدأ بـ ghp_... لازم ينسخ الكود ده ويحفظه في مكان آمن جداً لأنه مش هيظهر تاني أبداً! ده الرقم السري اللي هيدخل بيه لوحة التحكم.
+2. When the admin panel opens, it will ask for 3 details to verify ownership:
+   - **Repository Owner (Username):** Enter the GitHub account name where the project is hosted.
+   - **Repository Name:** Enter the name of the repository.
+   - **GitHub Token (Secret Key):** This is a secret password generated from your GitHub account. The steps to generate it are explained below.
 
 ---
 
-### رابعاً: إزاي يستخدم لوحة التحكم
-بعد ما يدخل اللينك ويسجل دخول بالبيانات اللي فوق:
+### Part 3: How to Get the Secret Key (GitHub Token)
+This step is done by the IT admin only once to get the password that will control the menu (whether on this account or any other account):
 
-- هيلاقي قدامه المنيو كله، يقدر يدوس Add Category عشان يضيف قسم جديد.
-- يقدر يدوس Add Product عشان يضيف منتج جديد.
-- تعديل الأسعار والمكونات: جنب أي منتج هيدوس على زرار Edit وهتفتحله شاشة يعدل منها (الاسم عربي وإنجليزي، الوصف، السعر).
-- الصور: عشان يضيف صورة لمنتج جديد، كل اللي عليه يرفع الصورة على جيت هاب أو أي موقع تاني، وياخد اللينك (URL) بتاعها يحطه في خانة "Image URL".
-- حفظ التعديلات: أول ما يخلص كل تعديلاته سواء مسح أو إضافة، ينزل تحت خالص ويدوس Save & Publish All Changes. في خلال دقيقة التعديلات دي هتسمع في المنيو بتاع الزباين.
+1. While logged into your GitHub account, click on your profile picture in the top right and select **Settings**.
+2. Scroll all the way down the left sidebar and select **Developer settings**.
+3. From the left sidebar, select **Personal access tokens** and then choose **Tokens (classic)**.
+4. Click on the **Generate new token (classic)** button on the top right.
+5. In the *Note* field, write any name like `Picky Admin`.
+6. In the *Expiration* field, choose `No expiration` so the password never expires and works indefinitely.
+7. Scroll down to the checkboxes and **check only the first box labeled `repo`** (this gives file modification permissions).
+8. Scroll to the very bottom and click **Generate token**.
+9. A long code starting with `ghp_...` will appear. **You must copy this code and save it in a very secure place** because it will never be shown again! This is the Secret Key you will use to log into the admin panel.
+
+---
+
+### Part 4: How to Use the Admin Panel
+After opening the link and logging in with the details above:
+
+- You will see the entire menu. You can click **Add Category** to add a new section.
+- You can click **Add Product** to add a new item.
+- **Editing Prices and Ingredients:** Next to any product, click the **Edit** button to open a screen where you can modify it (Name in EN/AR, Description, Price).
+- **Images:** To add an image for a new product, simply upload the image to GitHub or any other hosting site, and paste its link (URL) into the "Image URL" field.
+- **Saving Changes:** Once you are done with all modifications (adding or deleting), scroll to the bottom and click **Save & Publish All Changes**. Within a minute, these changes will reflect on the live customer menu.

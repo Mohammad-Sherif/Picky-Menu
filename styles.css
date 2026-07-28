@@ -83,10 +83,9 @@ body {
 .food-category-wrapper {
     position: sticky;
     top: 0;
-    background: var(--card-bg);
+    background: var(--bg-color);
     z-index: 1000;
     padding: 10px 0;
-    border-bottom: 1px solid var(--border-color);
 }
 
 .food-category {
@@ -110,13 +109,13 @@ body {
     font-weight: 600;
     font-size: 15px;
     text-decoration: none;
-    background: #f8f8f8;
+    background: #fff;
     border-radius: 30px;
     transition: all 0.3s;
 }
 
 .cat-link.active {
-    background: #000;
+    background: #4a2c1f;
     color: #fff;
 }
 

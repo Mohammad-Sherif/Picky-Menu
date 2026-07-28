@@ -2,54 +2,49 @@
 
 Welcome to the **Picky Menu App**, a fully bilingual (English/Arabic), mobile-optimized, serverless static website with a built-in Content Management System (CMS).
 
-## Features
-- 🚀 **Lightning Fast**: Built with pure HTML/CSS/JS, no databases or slow server calls required for the frontend.
-- 📱 **Mobile First**: Designed to look like a premium native mobile application.
-- 🌍 **Bilingual**: Instantly switch between English and Arabic with full RTL layout support.
-- 🛠 **Built-in CMS**: A completely secure, serverless Admin Dashboard (`admin.html`) that allows IT admins to manage categories and products via the GitHub API.
+---
+
+### أولاً: إزاي تشغل الموقع (المنيو) وتاخد اللينك بتاعه
+الموقع دلوقتي مرفوع كملفات بس، عشان نخليه موقع شغال على النت ببلاش اعمل الآتي:
+1. ادخل على رابط المستودع بتاعك.
+2. فوق على اليمين هتلاقي كلمة **Settings** (الإعدادات)، دوس عليها.
+3. من القائمة اللي على الشمال، انزل تحت واختار **Pages**.
+4. في نص الصفحة تحت كلمة `Build and deployment`، هتلاقي اختيار اسمه `Branch`. 
+5. افتح القائمة المكتوب فيها `None` واختار `main`، وبعدين دوس **Save**.
+6. استنى بالظبط دقيقتين أو تلاتة واعمل Refresh للصفحة دي، هتلاقيه كتبلك فوق إن موقعك بقى شغال واداك اللينك بتاعه! 
 
 ---
 
-## 1. How to Host on GitHub Pages (Free)
-Since this app doesn't require a backend server, you can host it 100% for free using GitHub Pages.
-
-1. Create a new repository on GitHub (e.g., `picky-menu`).
-2. Upload all the files from this folder to the repository.
-3. On your GitHub repository page, go to **Settings** > **Pages**.
-4. Under "Build and deployment", select **Deploy from a branch**.
-5. Select the `master` (or `main`) branch and click **Save**.
-6. Within a minute or two, your site will be live at `https://[your-username].github.io/picky-menu`.
+### ثانياً: إزاي بتاع الـ IT يدخل على لوحة التحكم (Admin Panel)
+لوحة التحكم دي مخفية ومش معمولة للزباين، عشان كده الدخول عليها له طريقة خاصة:
+1. بعد ما تجيب لينك الموقع من الخطوة اللي فاتت، ضيف في آخره كلمة `admin.html`. 
+2. أول ما يفتح لوحة التحكم، هيطلب منه 3 بيانات عشان يتأكد إنه صاحب الموقع:
+   - **Repository Owner (Username):** اسم صاحب الحساب اللي مرفوع عليه المشروع.
+   - **Repository Name:** اسم المستودع (الريبو).
+   - **GitHub Token (Secret Key):** الرقم السري اللي بيطلعه من حسابه على جيت هاب.
 
 ---
 
-## 2. How to Use the Admin Dashboard (CMS)
+### ثالثاً: إزاي تجيب الرقم السري (GitHub Token) للوحة التحكم
+الخطوة دي بيعملها بتاع الـ IT مرة واحدة بس عشان يجيب الباسورد اللي هيتحكم بيه في المنيو:
 
-To securely manage the menu without a database, the Admin Dashboard uses the GitHub API to update your `data.js` file directly.
+1. وهو فاتح حسابه على GitHub، يدوس على صورته فوق على اليمين ويختار Settings.
+2. ينزل تحت خاااالص في القائمة اللي على الشمال ويختار Developer settings.
+3. من القائمة اللي على الشمال يختار Personal access tokens وبعدين يختار Tokens (classic).
+4. يدوس على الزرار اللي فوق يمين Generate new token (classic).
+5. في خانة الـ Note يكتب أي اسم زي Picky Admin.
+6. في خانة الـ Expiration يختار No expiration عشان الباسورد ده ميفسدش ويفضل شغال على طول.
+7. ينزل تحت عند الخانات اللي بتتعلم بعلامة الصح، ويعلم صح على أول مربع بس اللي مكتوب جنبه repo (ده بيديله صلاحية تعديل الملفات).
+8. ينزل تحت خالص ويدوس Generate token.
+9. هيظهرله كود طويل بيبدأ بـ ghp_... لازم ينسخ الكود ده ويحفظه في مكان آمن جداً لأنه مش هيظهر تاني أبداً! ده الرقم السري اللي هيدخل بيه لوحة التحكم.
 
-### Step 1: Generate a GitHub Token (Secret Key)
-Only someone with a secret token can edit your menu.
-1. Log into your GitHub account.
-2. Go to **Settings** > **Developer settings** > **Personal access tokens** > **Tokens (classic)**.
-3. Click **Generate new token (classic)**.
-4. Give it a name (e.g., "Picky CMS").
-5. Under **Select scopes**, check the box for **`repo`** (Full control of private repositories).
-6. Click **Generate token**.
-7. **Copy the token and save it somewhere safe!** (It starts with `ghp_...`). You won't be able to see it again.
+---
 
-### Step 2: Login to the Dashboard
-1. Go to your live website and add `/admin.html` to the URL (e.g., `https://[your-username].github.io/picky-menu/admin.html`).
-2. Enter your GitHub Token.
-3. Enter your GitHub Username (Repository Owner).
-4. Enter your Repository Name (e.g., `picky-menu`).
-5. Click **Login & Load Menu**.
+### رابعاً: إزاي يستخدم لوحة التحكم
+بعد ما يدخل اللينك ويسجل دخول بالبيانات اللي فوق:
 
-### Step 3: Manage Categories and Products
-Once logged in, you can:
-- **Add Categories**: Click "+ Add Category". You must have at least one category before adding products.
-- **Add Products**: Click "+ Add Product". You can specify names and descriptions in both English and Arabic.
-- **Images**: Since this is a static site without a database, you must provide a direct URL to an image. You can upload your image to an image host (like Imgur) or directly to your GitHub repository and paste the link here.
-- **Edit/Delete**: Use the buttons next to any category or item.
-
-### Step 4: Save & Publish
-When you are done making changes, scroll to the bottom and click **Save & Publish All Changes**.
-This securely pushes the changes directly to your GitHub repository. Your live website will automatically update within a minute!
+- هيلاقي قدامه المنيو كله، يقدر يدوس Add Category عشان يضيف قسم جديد.
+- يقدر يدوس Add Product عشان يضيف منتج جديد.
+- تعديل الأسعار والمكونات: جنب أي منتج هيدوس على زرار Edit وهتفتحله شاشة يعدل منها (الاسم عربي وإنجليزي، الوصف، السعر).
+- الصور: عشان يضيف صورة لمنتج جديد، كل اللي عليه يرفع الصورة على جيت هاب أو أي موقع تاني، وياخد اللينك (URL) بتاعها يحطه في خانة "Image URL".
+- حفظ التعديلات: أول ما يخلص كل تعديلاته سواء مسح أو إضافة، ينزل تحت خالص ويدوس Save & Publish All Changes. في خلال دقيقة التعديلات دي هتسمع في المنيو بتاع الزباين.

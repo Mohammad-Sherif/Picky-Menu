@@ -32,8 +32,9 @@ The admin panel is hidden and not meant for customers, so accessing it requires 
 ### Part 3: How to Get the Secret Key (GitHub Token)
 This step is done by the IT admin only once to get the password that will control the menu (whether on this account or any other account):
 
-1. While logged into your GitHub account, click on your profile picture in the top right and select **Settings**.
-2. Scroll all the way down the left sidebar and select **Developer settings**.
+1. **IMPORTANT: Do NOT go to the repository settings.** Instead, click on your profile picture in the top right corner of the GitHub screen.
+2. From the dropdown menu, select **Settings** (this opens your personal account settings).
+3. Scroll all the way down the left sidebar and select **Developer settings**.
 3. From the left sidebar, select **Personal access tokens** and then choose **Tokens (classic)**.
 4. Click on the **Generate new token (classic)** button on the top right.
 5. In the *Note* field, write any name like `Picky Admin`.

@@ -76,9 +76,11 @@ document.addEventListener('DOMContentLoaded', () => {
             grid.className = 'items-grid';
 
             // Add Items
-            catItems.forEach(item => {
+            catItems.forEach((item, index) => {
                 const card = document.createElement('div');
-                card.className = 'food-box';
+                card.className = 'food-box fade-in-up';
+                // Add staggered delay for initial load
+                card.style.transitionDelay = `${(index % 4) * 0.1}s`;
 
                 const itemName = currentLang === 'ar' && item.name_ar ? item.name_ar : item.name;
                 const itemDesc = currentLang === 'ar' && item.description_ar ? item.description_ar : item.description;
@@ -103,6 +105,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         setupIntersectionObserver();
+        setupAnimationObserver();
+    }
+
+    function setupAnimationObserver() {
+        const animatedElements = document.querySelectorAll('.fade-in-up');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Optional: stop observing after it becomes visible
+                    // observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+
+        animatedElements.forEach(el => observer.observe(el));
     }
 
     function setupIntersectionObserver() {
